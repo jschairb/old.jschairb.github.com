@@ -1,0 +1,8 @@
+---
+layout: default
+title: Meet Mr. Hyde
+---
+
+h1. {{ page.title}}
+
+This blog is now powered by jekyll.
