@@ -62,5 +62,7 @@ h1 { font-size: 2em; margin-top: 0.5em; }
   padding: 1em 0;
   background: #fff;
   border-top: .5em solid #0066aa;
-
 }
+
+ul.meta, p.meta { float: left; margin-right: 2em; }
+ul.meta li { line-height: 1.5em; }
