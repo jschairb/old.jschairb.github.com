@@ -1,0 +1,53 @@
+--- 
+title: Prototyping with Camping
+layout: post
+---
+
+h1. {{ page.title }}
+
+As you might know, I've been spending a lot of time at "work":http://www.cardinal.com writing some dashboard-type applications using "_whytheluckystiff's":http://www.whytheluckystiff.net "Camping Framework":http://code.whytheluckystiff.net/camping.  I've been experiencing some incredible productivity gains by prototyping with this very small framework, and I think I'm only just beginning to realize exactly how much.  I've recently undertaken rewriting one of these dashboards in "Rails":http://www.rubyonrails.org/.
+
+h2.  The Camping Application
+
+Several months ago, I was tasked with providing some statistics on budget and project management performance for senior management.  The maturity of datasources wasn't very good, many of them were excel spreadsheet laden with macros, access databases, and csv files from 5 or 6 datasources.  To further compound the problem, these datasources weren't always in a consistent data format, so I made the design decision to just create a simple CRUD interface to manually enter the data.  All compilation would be handled outside the application for the time being.  The benefit of this approach would be that eventually, I could turn the data entry over to someone else.
+
+I developed this solution over the course of about 2 weeks, working on and off until there was a format visually appealing to all parties.  I wrote the most basic tests possible using "Topfunky's":http://www.nubyonrails.com "Mosquito Testing Framework":http://code.whytheluckystiff.net/camping/wiki/MosquitoForBugFreeCamping.  This solution worked until the application needed to be expanded to the entire organization, not just a subset.  It was time to move to Rails.
+
+h2.  The Rails Application
+
+In addition to changing the domain to fit the entire organziation, I really wanted to have an extremely clean interface for someone else to enter the data.  My goal was to have someone else take over entering the data, and I would just be responsible for the support of the application.  Rails also gave me an opportunity to more easily explore automating some of the data entry.
+
+In 2 days, working on it for 8 hours a day, I'm 90% complete, including adding the additional models and unit and functional tests.  I realize that it's a small Rails application, but now if there are enhancement that need to be made I'm on a much better platform.
+
+<pre><code class="shell">+----------------------+-------+-------+---------+---------+-----+-------+
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Controllers          |   560 |   395 |       8 |      49 |   6 |     6 |
+| Helpers              |    20 |    19 |       0 |       1 |   0 |    17 |
+| Models               |   152 |   130 |       7 |      18 |   2 |     5 |
+| Libraries            |    14 |    11 |       0 |       3 |   0 |     1 |
+| Integration tests    |     0 |     0 |       0 |       0 |   0 |     0 |
+| Functional tests     |   434 |   342 |      14 |      63 |   4 |     3 |
+| Unit tests           |   745 |   565 |       8 |     154 |  19 |     1 |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Total                |  1925 |  1462 |      37 |     288 |   7 |     3 |
++----------------------+-------+-------+---------+---------+-----+-------+
+  Code LOC: 555     Test LOC: 907     Code to Test Ratio: 1:1.6</code></pre>
+
+So in proper enterprise +3/-3 format, here are some observations...
+
+h3. Eagles
+
+* My models are almost an exact copy from Camping, with more validations and a couple of additional models that I needed to add for the extra functionality.
+* I already knew the domain of what I needed to create so any reworking could be accomplished on the first pass with Rails.
+* I already had lots of good data to use for Rails development as I just pulled fixtures down from the Camping app.
+
+h3. Turkeys
+
+* I miss clean view syntax of "Markaby":http:/code.whytheluckystiff.net/markaby in Rails.  I realize that I could use Markaby, but if support for this application eventually gets turned over to another group, I thought that the barrier to entry would be lower for the JSP-style syntax of ERB templates.
+* I had to manually copy and paste a lot of code from one Emacs screen to another.  There was rumored to be a gem that would transistion a Camping application to Rails, "DeCamper":http://rubyforge.org/projects/decamper, but I couldn't find any code that had been released.  This bears further research.
+* Rails migrations and Camping migrations aren't very similar, and I wanted to have the cleanest Rails application possible.  I reworked the models enough that it just didn't transfer very well.
+
+h2.  Summary
+
+I've been in too many situations where I work on things for too long only to have the organziation go in a different direction.  Using Camping to prototype before moving on to Rails gets something for my users to react to before I'm too invested in the outcome of my work.  When, and _if_ I do need to move to Rails, the transition is seemless and probably cuts down on the total time to get a finished product into production.  I've been very pleased with this approach, but I think I can reduce the turn around time even further.  I think some possible options would be to use ERB with Camping or Markaby with Rails.  Also, I think I should have perhaps gone to Rails a few weeks ago, but time was just too hard to come by.  The next time you come across a situation that warrants creating something of immediate use that may or may not be thrown away after an initial pass, you should think about this approach.

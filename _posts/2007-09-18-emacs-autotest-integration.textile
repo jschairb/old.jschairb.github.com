@@ -1,0 +1,20 @@
+--- 
+title: Emacs Autotest Integration
+layout: post
+---
+
+h1. {{ page.title }}
+
+I've been read in several places about how to get "emacs":http://www.gnu.org/software/emacs/ and "autotest":http://www.zenspider.com/ZSS/Products/ZenTest/ to play nicely together.  This package runs a shell buffer just giving autotest's output.  It's a nice way to automatically have that visual representation in the same window.  It's actually quite simple to do.  
+
+To begin with, you'll need to download the "autotest.el":http://www.emacswiki.org/cgi-bin/emacs/download/autotest.el file and also a depencency, "toggle.el":http://www.emacswiki.org/cgi-bin/emacs-en/download/toggle.el.  From there, I simply added the following to my .emacs file:
+
+<pre><code class="elisp">;; adding autotest integration
+  (require 'toggle )
+  (require 'autotest)</code></pre>
+
+Restart emacs, and you should be good to go.  Note, I also had to add the "unit-test.el":http://www.emacswiki.org/cgi-bin/emacs/download/unit-test.el file, but that wasn't mentioned anywhere on the wiki.
+
+Navigate in emacs to a the root folder that you want to run autotest in and you can start this mode by typing: @M-x autotest@.  Currently, my output is looking a little funny, I think it's an encoding thing, but I think I can get the kinks worked out pretty soon.  Also, make note that this will read the ~/.autotest file to start.  A great resource on this nice piece of integration can be found on the "emacs wiki":http://www.emacswiki.org/cgi-bin/wiki/RyanDavis.
+
+That's one less terminal that I'll have going, meaning that more of my life will be spent in emacs, which is good.

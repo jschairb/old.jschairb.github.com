@@ -1,0 +1,14 @@
+--- 
+title: 5 More Android Dev Tips
+layout: post
+---
+
+h1. {{ page.title }}
+
+Here are a few more items that I've found.
+
+* "Emulator skin w/o keyboard":http://sacoskun.blogspot.com/2008/09/android-emulator-skin-without-keyboard.html
+* "Easily interact w/ REST + JSON APIs":http://groups.google.com/group/android-developers/browse_thread/thread/27a46468c1b68070?hl=en & http://groups.google.com/group/android-developers/browse_thread/thread/300b1fd5c90d7ca9?hl=en
+* "Test your codez w/ Junit"
+* "Target Android w/ Scala":http://www.scala-lang.org/node/160 & http://www.nabble.com/-scala--Scala-on-Android-td14336400.html
+* "Android and JRuby":http://www.ruby-forum.com/topic/130529

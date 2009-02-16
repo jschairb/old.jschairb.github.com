@@ -1,0 +1,13 @@
+--- 
+title: Fail Early, Fail Often
+layout: post
+---
+
+h1. {{ page.title }}
+
+I was recently having a discussion with someone, and the topic was standing up while you're working.  I've recently been hearing a lot about it "here":http://www.37signals.com/svn/posts/1001-standing-versus-sitting and  "here":http://podcast.rubyonrails.org/programs/1/episodes/john-medina.  This person was mentioning that he had found a standing desk with a "treadmill underneath":http://www.treaddesk.com/home.html.  The proposed benefits are improved posture and increased attention span.  I'm intrigued by the idea, but it's something that I'd have to try out to find out if I like it.  Unfortunately, my height (6'4") purchasing something cheap or rigging up an existing table didn't seem to be an option.  I needed something ~48" high.  
+
+I remembered that I had a couple of nicely cut Medium Density Fiberboard pieces laying round that would be a great start.  I also had 5 12' 2x4s, a hand jigsaw, and a screw gun.  Long story short, 2.5 hours and $0 later, I had something I could use.  Is it great?  No.  Is it permanent?  No.  Is it something that I can use to evaluate whether I like to work this way or not without making a large investment?  Absolutely.  Fail early, fail often.  Open Source carpentry.
+
+!http://farm3.static.flickr.com/2415/2489255923_db795083fb_d.jpg!
+!http://farm3.static.flickr.com/2334/2489255203_50cf934bbb_d.jpg!

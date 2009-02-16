@@ -1,0 +1,8 @@
+--- 
+title: On the Rails podcast
+layout: post
+---
+
+h1. {{ page.title }}
+
+It's really old news, but my coworker, "Dan Manges":http://dcmanges.com and I were featured on the "Official Ruby on Rails podcast":http://podcast.rubyonrails.org. This was a great opportunity to showcase for the Rails community some of the cool things that we're able to do inside the bank.  You can download the interview directly from "here":http://podcast.rubyonrails.org/programs/1/episodes/josh_shairbaum_and_dan_manges.

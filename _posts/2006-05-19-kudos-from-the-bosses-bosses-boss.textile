@@ -1,0 +1,16 @@
+--- 
+title: Kudos from the Bosses Bosses Boss
+layout: post
+---
+
+h1. {{ page.title }}
+
+This message was posted by my company's CTO this morning on the corporate internet, accessible to over 100,000 employees.  The names and stats have been changed to protect the innocent.
+
+bq. We continue to see the four pillars - - client focus, speed, efficiency and delivery - - paying dividends in our organization.
+
+bq. Josh Schairbaum & Dan Manges engaged these precepts in their recent efforts on the -IT- web tools project for Production/ Operations and Risk Management.  They have done an excellent job in delivering quality with speed.As a follow-up to their experience in developing the daily snapshot to our production and operations performance via the Production Site, they were asked to use their production skills to bring life to our Risk Management Agenda with core metrics.  For the Risk challenge, Josh and Dan took the approach of "convention over configuration" to achieve speed in developing the web-based Risk Metrics Site with "Ruby on Rails" on a Linux Sever. Josh and Dan's efforts tracked the amazing progress that the Risk management accomplished over the last 45 days. 
+
+bq. Josh & Dan will continue their efforts through our web strategy in 2006; however, the biggest priority on their plate will be the -Supersecret next application- that is targeted for September 30, 2006. Great job to both teams!
+
+Needless to say, I'm pretty pleased about the progress being made. Some of you might ask why the big deal about Linux?  Well, it's the only one in the environment. :) I also had another article posted on the intranet about how I keep my inbox clean.  I promise to make another post sometime soon concerning our adventures with Rails.

@@ -1,0 +1,26 @@
+--- 
+title: String Includes Enumerable
+layout: post
+---
+
+h1. {{ page.title }}
+
+While working on a little side project, I'm using Rails app to do a lot of system calls and grabbing the response of STDOUT or STDERR.  One of the things that has made this really easy is that in Ruby, String includes the Enumerable module, which treats the string as an array.  This may not be a surprise, except that each item is separated out in the array by a new line character "\n".  This allows the usage of the "each" method and all 28 other methods that come with "Enumerable":http://www.ruby-doc.org/core/classes/Enumerable.html objects.
+
+<pre><code class="ruby">def rake
+  @rake = `rake -T`
+  @tasks = []
+  @rake.sort.each { |line|
+    @tasks << line.gsub("rake", "")
+  }
+end</code></pre>
+
+If you want to iterate over the string character by character then you would have to iterate by byte and show the character value (the each_byte method returns the ASCII character number for the given character.  You might do something like this to change all "a" characters to "e" characters:
+<pre><code class="ruby">@rake.each_byte do |b|
+  b.chr.gsub(/a/,"e")
+end</code></pre>
+
+In Rails, there's a method called "chars":http://api.rubyonrails.org/classes/ActiveSupport/CoreExtensions/String/Unicode.html#M000417"
+which does some cool things by proxying your string to UTF-8-safe characters.
+
+UPDATED:  "Dan Manges":http://www.dcmanges.com pointed out that I had a nonsensical example for each_byte.

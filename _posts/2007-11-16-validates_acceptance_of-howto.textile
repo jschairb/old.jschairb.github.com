@@ -1,0 +1,30 @@
+--- 
+title: validates_acceptance_of howto
+layout: post
+---
+
+h1. {{ page.title }}
+
+We're really getting things rolling on "Gonowdo":http:/www.gonowdo.com and as part of that, we're starting to accept users on a somewhat limited basis.  When signing up, I need to make sure that users accept our terms of service.  With Rails, this is extremely simple, but after spending a few minutes on mailing list archives and forums I didn't find a good resource or howto.  Hopefully, this post will serve as that for anyone in the future.
+
+The key to accomplishing this is to use an active record validation called "validates_acceptance_of".  Adding this to the User model with a method will create a virtual attribute for that named method, in my case, I used "terms_of_service".  There is no corresponding column in the database needed.  This will not allow a model to be saved without it.  By default, this method will allow the record to be saved if it is nil.  Setting it to true will mean that you must pass this value to the record everytime you want to save it.  One other thing, in order be able to access this method from the view, you need to make it accessible by creating an accessor.  Here is the example from our application.  
+
+<pre><code class="ruby">class User < ActiveRecord::Base
+  # ...
+  validates_acceptance_of :terms_of_service
+  # ...
+
+  attr_accessible :terms_of_service
+end</code></pre>
+
+In the view, you just need to add a control to the form for selecting this checkbox.  Without checking this box, the form will throw a validation error and the model will not be saved.
+
+<pre><code class="erb ruby html"><% form_for :user, @user, :url => users_path do |f| %>
+  <p>... other controls ...</p>
+  <p><%= f.check_box :terms_of_service %> I accept the terms of service.</p>
+  <p><%= submit_tag "Save" %></p>
+<% end %></code></pre>
+
+There are several other configurations that you can pass to validates_acceptance_of, similar to other validations.  Check the documentation for this method for more information.  If you have more stringent auditing requirements, then you may need to think about just using a boolean field in the database and using a regular validation.  Extending this further might even allow you to track acceptance of versions of your terms of service as they get updated.  Since we're allowing nil by default, you will need to make sure that create a test/spec to specifically pass a :terms_of_service method.  I would keep this in a special test case and not worry about including it throughout your test suite.  
+
+Hopefully, this will get you going, best of luck!

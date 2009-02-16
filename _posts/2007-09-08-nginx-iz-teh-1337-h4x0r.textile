@@ -1,0 +1,8 @@
+--- 
+title: Nginx iz teh 1337 h4x0r
+layout: post
+---
+
+h1. {{ page.title }}
+
+I spent the evening migrating this mephisto installation from apache to nginx.  It was quite easy to install and configure.  I've also cut down my memory by a few MBs.  I'm having a little problem with some of the virtual hosts, but I think it's an issue with my DNS, not necessarily the configs.  My initial impression is that my pages are loading in the 1/2 the time.  I'm too tired to post more, I'll try to get to it tomorrow, including statistics, but if you have a choice, you should be using nginx, NOW.

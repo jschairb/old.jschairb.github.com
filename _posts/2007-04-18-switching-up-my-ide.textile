@@ -1,0 +1,20 @@
+--- 
+title: Switching Up My IDE
+layout: post
+---
+
+h1. {{ page.title }}
+
+That's it, I can't stand the _bloat_ that comes from all things "java":http:/java.sun.com anymore.  I've been a pretty religious "Radrails":http://radrails.org user almost since it's inception.  I haven't been too frustrated with the recent lack of development because it's done what I need it to do.  About 4 months ago, I switched from using Radrails proper to loading it into an existing version of "Eclipse":http://www.eclipse.org as a plugin because I wanted to load some other types of plugins, like one for "Erlang":http://www.erlang.com support. (Thanks "pragprog":http://www.pragmaticprogrammer.com/titles/jaerlang/!)  This was serviceable, but since I'm running Ubuntu in a "VMWare":http://vmware.com machine on my laptop I need to conserve all the RAM I can.  The JVM for Eclipse currently runs at *86MB* when sitting still.  _Totally unacceptable_ for my needs.
+
+So, if I'm off the Radrails/Eclipse stack, what should I use?  Another popular IDE is "JEdit":http;//jedit.org, but since the "J" stands for java, I'm skipping it.  I've decided to take the time and learn how to use "emacs":http://www.gnu.org/software/emacs/.  I love the emphasis on hotkeys and simplicity.  Since emacs has been around in some form since 1974, it's super stable too.  It just seems that there is so much more I can do, and quicker too, if I'm just willing to take the time to learn.  I am.  Plus, there just seems to be some "serious street-cred":http://en.wikipedia.org/wiki/Emacs for telling people that you're an emacs user.
+
+h3. Installation Instructions for Ubuntu Edgy
+
+Since most of the development that I'll be doing in emacs will be Ruby/Rails related, I'll want to install Dima's "Rails Emacs minor mode":http://dima-exe.ru/rails-on-emacs.  *WARNING:* This requires emacs 22, which you'll either need to compile, or find a package for.  There is an Ubuntu package of emacs 22 currently available in the repositories.  It's called *emacs-snapshot* and the package was built from CVS sources on 20060915, so it's not the latest sources, but it's pretty close.  "Feisty Fawn":https://wiki.ubuntu.com/FeistyFawn, which is supposed to release tomorrow (4/19) also has this package, but it's actually built on 20070407, so very recently.  I'll be upgrading to Feisty soon.  Just do the following to install:
+<pre>sudo apt-get install emacs-snapshot</pre>
+
+As a final note, I like to keep all my programming utilities on the Gnome menu together, under the "Programming" heading.  The emacs-snapshot package puts menu shortcut in Applications -> Accessories, so it required a little tweaking of the .desktop file.  Fire up your favorite editor and edit _/usr/share/applications/emacs-snapshot.desktop_.  Change line that begins with the word *Categories* to the following to move the shortcut to your Applications -> Programming section:
+<pre>Categories=Application;Development;</pre>
+
+I'll take you through installing the Rails specific portions next time.  Just to give a comparison, Eclipse uses 86MB of RAM just sitting there, while emacs uses only *11MB*.  I'm looking forward to getting my "emacs pinky":http://en.wikipedia.org/wiki/Emacs#Emacs_Pinky  Why didn't I switch sooner?

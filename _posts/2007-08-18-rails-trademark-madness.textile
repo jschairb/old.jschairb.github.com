@@ -1,0 +1,18 @@
+--- 
+title: Rails Trademark Madness
+layout: post
+---
+
+h1. {{ page.title }}
+
+So, it would appear that the -Rails- trademark "discussion":http://www.rubyinside.com/david-heinemeier-hansson-says-no-to-use-of-rails-logo-567.html isn't quite over.  On the 27th of July, "Dr. Nic Williams":http://drnicwilliams registered a trademark for:
+
+* Educational publications, namely, training manuals in the field of information technology
+* Dissemination of advertising, scheduling and managing of training courses and programs for others via a global computer
+* Arranging professional workshop and training courses
+
+This is in addition to the one originally "filed by David Heinemeier Hansson":http://tarr.uspto.gov/servlet/tarr?regser=serial&entry=77119206 about the usage of -Ruby on Rails- in _Computer software, namely, software framework for developing web applications_.  Apparently, that one isn't completely through the door, yet.
+
+What does all this mean?  1) Patent and trademark law seems completely jacked up in the US.  2) It means that the name of a thing is valuable, not the thing itself.
+
+For those of you thinking about filing a trademark on your service, let me ask a question.  Are you a great -Rails- developer, or are you a great developer who uses -Rails-?

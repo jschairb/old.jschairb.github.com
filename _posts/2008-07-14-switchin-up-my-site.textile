@@ -1,0 +1,12 @@
+--- 
+title: Switchin' Up My Site
+layout: post
+---
+
+h1. {{ page.title }}
+
+I've switched my blog from "Mephisto":http://www.mephistoblog.com to "RadiantCMS":http://www.radiantcms.org.  During the transition, I deleted some articles which weren't really relevant anymore and I might have jacked up the feed.  I primarily switched because I had to use Radiant for something at work and I really liked it, but I also wanted to completely redesign the style, and I'm very pleased with that.  I've gone with a very minimalist approach, without images.
+
+Switching to Radiant wasn't the simplest things, and some stuff had to be done by hand, but I recommend it if you want something more than a blog, but less than an over-the-top CMS (which Radiant could be, but has a very simple interface).  I know that I've lost some Google link juice because I'm not handling all the redirects, but it's just not that important to me.
+
+I'm working on getting the tags back, but I'll probably ditch the categories for good.  Comments are enabled for the moment.  Look for a post later on about the perfect blog setup for Radiant.  I want to use this URL as a means of experimentation of Radiant, XHTML, CSS, unobtrusive javascript techniques and anything else that I come across. We'll see.

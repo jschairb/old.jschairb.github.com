@@ -1,0 +1,48 @@
+--- 
+title: Polymorphic Camping
+layout: post
+---
+
+h1. {{ page.title }}
+
+For one of the projects I'm doing at "Cardinal":http://www.cardinal.com, I'm using a polymorphic association.  The nature of "Camping":http://code.whytheluckystiff.net/camping is to write terse, yet simple code.  For example, creating a new record in a controller is normally done in a one-liner, like so:
+
+<pre><code class="ruby">class Add
+  def post
+    @person = Person.create(:name => input.person_name, :age => input.person_age)
+    redirect R(List)
+  end
+end</code></pre>
+
+Here's something that I got caught up on for 20 minutes this morning.  When adding polymorphic associations, make sure that the [polymorphic name]_type field includes all the namespace information.  Here's an example:
+
+<pre><code class="ruby"># models
+def Person < Base; has_many :addresses, :as => :addressable; end
+def Address < Base; belongs_to :addressable, :polymorphic => true; end
+
+# relevant portion of the views
+...
+label 'Type', :for => 'addressable_type'; br
+addressable_select("addressable_type"); br
+label 'person', :for => 'person_id'; br
+person_select("person_id", @people); br
+...
+
+# controller
+class Add
+  def post
+    @addressable = Person.find(input.person_id) if input.addressable_type == "Person"
+    @address = Address.create(:street => input.address_street, 
+                                          :city => input.address_city,
+                                          :state => input.address_state, 
+                                          :zip => input.address_zip,
+                                          :addressable_type => @addressable.class,  #use the class name to get namespace
+                                          :addressable_id => @addressable.id)
+    redirect List
+  end
+end
+</code></pre>
+
+There's a number of ways to solve this, although I found this to be the simplest for a form where you can select multiple models.  The point is to make sure that you have that namespace information in the database, otherwise you will receive "Uninitialized Constant" errors for the addressable class.
+
+Happy Camping!

@@ -1,0 +1,14 @@
+--- 
+title: Are you LinkedIn?
+layout: post
+---
+
+h1. {{ page.title }}
+
+I'm really not into any of the social aspects of the web at a macro-level.  I've never been to MySpace, I don't IM, it's just not my thing.  Recently, I've discovered "LinkedIn":http://www.linkedin.com, and I have to say that I really enjoy it.  I'm not sure that I would ever use the site itself for a job search, but I would however use it to meet new people who I might be able to help in the future, and vice versa.  One of the coolest features thus far is the ability to search my gmail contacts list and send invitations to my contacts asking them to connect with me.  
+
+"Guy Kawasaki":http://blog.guykawasaki.com has written a great article about some of the benefits of using LinkedIn.  One of the more compelling reasons that I think are increasing your visibility, but that also brings me to another problem.  I know have profiles on LinkedIn, Technorati, WorkingWithRails, and .... am I missing any?  I'm wishing there were a single This-Is-Me online identity manager for the web.  Perhaps I just need to pick a horse and go with it.
+
+You can find the article here: "http://blog.guykawasaki.com/2007/01/ten_ways_to_use.html":http://www.typepad.com/t/trackback/7378582
+
+You can find my public profile "here":http://www.linkedin.com/in/jschairb.

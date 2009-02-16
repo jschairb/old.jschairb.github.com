@@ -1,0 +1,22 @@
+--- 
+title: MacPorts is trying to kill me
+layout: post
+---
+
+h1. {{ page.title }}
+
+Yesterday I was trying to install Apache2 through MacPorts so I could get Phusion Passenger to run on my Macbook for local things.  I am constantly having trouble with MacPorts failing to install things, it's various reasons, although I'm sure I'm to blame for some of them; I think it work and act just like apt. :)  I couldn't get Apache installed and I'd tried various things.  I was getting a little frustrated and flipping back and forth between the terminal and the browser.  See if you can see my problem:
+
+I type in my command to try to get Apache to install, but then stop at the last minute to read something in the browser.
+<pre><code class="shell">bash-3.2$ sudo port install</code></pre>
+
+After a few minutes, I come back to the terminal and figure out that I need to selfupdate MacPorts and that might help.  I pick up where I left off...
+<pre><code class="shell">bash-3.2$ sudo port install sudo port selfupdate</code></pre>
+
+FAIL.  If you can't see it, basically, I just gave the command to MacPorts to install it's own @sudo@ program over the OS X one.  The install failed because sometime during the install it switched to the MacPorts one.  It complained about now being able to create the @/opt/local/etc/sudoers@ file.  I was stuck in limbo, not able to deactivate the port, not able to copy the sudoers file, nothing.  @sudo@ was broken.
+
+Panic sets in.  Let's just say that I've tried several things, but there's one easy way to fix it.  You might have immediately come to this solution... but I didn't, so congrats on your problem solving skills.  Simply comment out the MacPorts paths from @$PATH@, open another terminal and you should be able to create the necessary file, add the paths back in and move on from there.  At that point you can either deactivate the port or use it.  
+
+I'm not sure why MacPorts would have a port that couldn't complete it's own installation, but no long term damage.  Hopefully, if this happens to someone else, they'll be able to have this post point them in the right direction. Now I guess I can go back to betting Phusion Passenger installed. :)
+
+

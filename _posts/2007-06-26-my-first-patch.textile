@@ -1,0 +1,12 @@
+--- 
+title: My First Patch
+layout: post
+---
+
+h1. {{ page.title }}
+
+I am no longer an innocent bystander to the world of open source projects.  I've had my very first patch applied to a code base.  While working on a tiny Rails project, I used "Rick Olsen's":http://techno-weenie.net "restful_authentication":http://svn.techno-weenie.net/projects/plugins/restful_authentication plugin/generator.  The tests failed immediately due a "change in the api for assert_difference":http://dev.rubyonrails.org/changeset/6693.  I made the changes, and submitted a patch to Rick, and he applied it "last night":http://bs.techno-weenie.net/!revision/2921, along with a couple of other small changes.
+
+I've been wanting to start getting involved with more patching, but just haven't had the opportunity.  I even set-up a specific workspace on my laptop just for things that I'm going to be patching, that way I can keep it separate from my own projects.
+
+How exciting!

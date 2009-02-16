@@ -1,0 +1,25 @@
+--- 
+title: RSpec NO NAME error
+layout: post
+---
+
+h1. {{ page.title }}
+
+On "Gonwodo":http://www.gonowdo.com, "Aaron":http://www.aaronbedra.com and I decided to use "RSpec":http://rspec.rubyforge.org/ for our tests.  We were getting a really strange error when attempting to print out the spec docs through the rake tasks.  We had actually never written any specifications, just it "foo foo foo" methods in order to get pending tests.  The error we were getting was:
+<pre><code class="shell">A New User
+  -- NO NAME (Because of --dry-run)
+  -- NO NAME (Because of --dry-run)
+  -- NO NAME (Because of --dry-run)</code></pre>
+I was able to determine that the rake task does indeed call dry run.  Here's the task,
+<pre><code class="ruby">desc "Print Specdoc for all specs (excluding plugin specs)"
+  Spec::Rake::SpecTask.new(:doc) do |t|
+    t.spec_opts = ["--format", "specdoc", "--dry-run"]
+    t.spec_files = FileList['spec/**/*_spec.rb']
+  end</code></pre>
+This is actually the expected behavior, as RSpec is attempting to generate the names of the specs using the code internally.  The problem with the dry-run is that it never executes the code so the names cannot be determined.  In order to have the empty tests generate the necessary spec doc you would do:
+<pre><code class="shell">./script/spec spec -fs</code></pre>
+I'm not sure that I understand why this is the expected behavior because I give the test a name, so I'm not expecting it to be run.  If anyone has an explanation, I would greatly appreciate it.
+
+
+* "Mailing List Discussion of this error":http://rubyurl.com/YEyl
+* "RSpec Rake task source":http://rspec.rubyforge.org/svn/trunk/rspec_on_rails/tasks/rspec.rake

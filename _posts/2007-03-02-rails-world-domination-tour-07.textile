@@ -1,0 +1,17 @@
+--- 
+title: Rails World Domination Tour '07
+layout: post
+---
+
+h1. {{ page.title }}
+
+As heralded "elsewhere":http://blog.rubyonrails.org/2007/3/1/computerworld-names-rails-1-tech-to-know-in-07, "ComputerWorld":http://computerworld.com/index.jsp has named "Rails":http://rubyonrails.org the "#1 technology":http://computerworld.com/action/article.do?command=viewArticleBasic&articleId=9011969&intsrc=hm_ts_head to know in 2007.  To quote:
+bq. ...it[Rails] can have a dramatic impact on the speed at which a Web production team is able to build and maintain *enterprise* Web sites and applications.
+
+The emphasis in the quote is mine, and I think it's very telling that Rails is being billed as an -enterprise- solution for companies because of it's speed and maintainability.  That pretty much sums up my experience with Rails thus far, and I think the first fruits of early adopters are starting to be harvested.  Being a member of the "second wave":http://dev.rubyonrails.org/browser/tags/rel_0-13-0, I feel that I'm in a great position to be able to speak with authority on ways to ease Rails in the door at "large corporations":http://www.chase.com.  
+
+Forward thinking companies have already gotten onboard and perhaps have several developers evaluating Rails in order to make a strategic decision.  I think this quote from the article details what they will find:
+bq. Equal parts design philosophy and development environment, Rails offers developers a few key code-level advantages when constructing database-backed Web applications.
+
+If you are running or working in a large monolithic corporation and you're not _at least_ evaluating Rails' position in your company, *why not*?
+

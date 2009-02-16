@@ -1,0 +1,10 @@
+--- 
+title: Singularity of Purpose... The Elements of Peak Performance
+layout: post
+---
+
+h1. {{ page.title }}
+
+Once of the benefits of never throwing anything is away is going back and finding pieces of information that you've acquired over the years.  For instance, I was cleaning out my garage this weekend when I stumbled upon a packet from a seminar titled, "Peak Performance for Wrestling: Sport Psychology Training for Mental Toughness" given by Dr. Chris Stankovich, of "Champion Athletic Consulting":http://www.championathletic.com.   This was a great seminar and some of these principles I've tried to translate for myself off the mat and into the cubicle. 
+
+The basic gist of the seminar was establishing peak performance in wrestling by setting goals of varying length while focusing on 3 elements: physical, technical, and mental.  As I was reading this, it brought to my mind the benefits that those of us in the technology field could take as lessons learned. The analogy may be a stretch for some, but stick with me.  No group of individuals have a more focused "singularity of purpose" than wrestlers.  I think it could be said that those in technology or even business rely on many of the same principles.  While most of us are part of a team, when all the fat is boiled it, it's all about individual performance.

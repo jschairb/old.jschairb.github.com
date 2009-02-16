@@ -1,0 +1,10 @@
+--- 
+title: Sudoku vs Crosswords for Career Advancement
+layout: post
+---
+
+h1. {{ page.title }}
+
+One important part of my professional life is constantly questing for ways to enhance my abilities and skills.  I think an unused brain is a dull brain and business requires sharpness at all times.  One area that I focus on for this is problem/puzzle solving.  I do sudoku, but  I've never had the desire to do crosswords.  "David Black":http://dablog.rubypal.com/ got me thinking about the nature of both types of puzzles in a post he made on "sudoku solutions":http://dablog.rubypal.com/2007/2/25/sudoku-solutions-who-cares.  
+
+"Sudoku":http://www.websudoku.com is more of an introspective puzzle, it's cleaner, it's lighter, and my feeling is that it fits in perfectly with Japanese culture.  I solve sudoku internally.  There is no context needed, I look at the puzzle, and everything that I need is right there.  "Crossword puzzles":http://www.webcrosswords.com are focused on the external, they are word oriented.  Each clue has a context around it that I need to have awareness of.  This could be word meaning, cultural history, or even the ability to ask someone else for a quick clue.  It seems that sudoku would be good for you to sharpen your problem-solving skills, however crosswords would seem to enhance your context-solving skills.  This leads me further into my discovery of what goes into "good" dialogue within the context of effectively communicating with my clients/customers as to their wishes.  I hope to be posting more on these theories in the weeks to come.

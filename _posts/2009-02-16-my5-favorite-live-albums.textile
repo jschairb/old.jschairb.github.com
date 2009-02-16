@@ -1,0 +1,28 @@
+--- 
+title: My5 Favorite Live Albums
+layout: post
+---
+
+h1. {{ page.title }}
+
+Not the band Live, but albums that were recording during a concert.  There is no mention of _Mental Jewelry_ on this page.
+
+My criteria: 1) I had to feel like I was missing out by not being there. 2) I had to feel like I was there. 
+
+# Live Bullet
+# Live at the Fillmore East (1971)
+# Martin + Me
+# At Folsom Prision
+# Paul Simon's Concert in the Park
+# Live Rust
+# Live At Red Rocks
+# Jay-Z Unplugged
+# Band of Gypsies
+
+h3. The Roots Come Alive
+
+While the lineage of Hip Hop can be traced back to house parties and discos with the MC providing instruction for the DJ's hooks, it is now fairly closely defined as a studio medium.  Hip Hop live albums rarely turn out well.  That being said, _The Roots Come Alive_ is an exceptional piece of wax.
+
+
+# How the West was Won
+# The Last Waltz

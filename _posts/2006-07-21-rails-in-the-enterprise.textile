@@ -1,0 +1,20 @@
+--- 
+title: Rails in the Enterprise
+layout: post
+---
+
+h1. {{ page.title }}
+
+<p>Last Monday, Dan Manges and I gave a talk at the Columbus Ruby Brigade about some techniques for bringing Rails into the enterprise.  I believe that there are 2 ways of doing this.  The first is attempting to make Rails a little more "enterprisey", and I don't mean sacrificing a lot of the things that make Rails great, but modifying some of it's behaviors, such as  support for composite keys and that type of thing.  Basically, all the things that Dave Thomas talked about at RailsConf this year.  The second approach is a bit more subversive, and that is to make the enterprise environment a little more Rails-like.  It's culture changing, and that's what we focus on.  This is the approach that would appear to be favored by DHH. I think both ways are valid because they have the same ends, just different means.  Each situation is different and this approach works for us at JPMorganChase.  So without further ado, here are the slides from the presentation, and I hope to have a podcast of our presentation edited by this weekend.</p>
+
+<p><b>UPDATE</b> The podcast is now available.</p>
+
+* PowerPoint: "crb-enterprise-rails.zip":http://blog.singularitytech.com/crb-enterprise-rails.zip
+* Podcast: "crb-enterprise-rails-podcast.mp3":http://blog.singularitytech.com/crb-enterprise-rails-podcast.mp3
+
+<br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5  License</a>.<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<Work rdf:about="">
+		<license rdf:resource="http://creativecommons.org/licenses/by-nc-sa/2.5/" />
+	<dc:type rdf:resource="http://purl.org/dc/dcmitype/Text" />
+	</Work>
+	<License rdf:about="http://creativecommons.org/licenses/by-nc-sa/2.5/"><permits rdf:resource="http://web.resource.org/cc/Reproduction"/><permits rdf:resource="http://web.resource.org/cc/Distribution"/><requires rdf:resource="http://web.resource.org/cc/Notice"/><requires rdf:resource="http://web.resource.org/cc/Attribution"/><prohibits rdf:resource="http://web.resource.org/cc/CommercialUse"/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/><requires rdf:resource="http://web.resource.org/cc/ShareAlike"/></License></rdf:RDF>

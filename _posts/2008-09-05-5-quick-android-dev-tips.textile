@@ -1,0 +1,28 @@
+--- 
+title: 5 Quick Android Dev Tips
+layout: post
+---
+
+h1. {{ page.title }}
+
+I've recently been doing some development with "Google Android":http://code.google.com/android, and I must say that I'm really enjoying it.  It really seems like there are a lot of untapped possibilities.  I'm currently using Eclipse for development, and the official Android plugin for it.  It's the path of least resistance. Here's a collection of 5 things that I've found helpful to get up and running.  
+
+h3. Add The Android SDK To Your Path
+
+The SDK is a minimal collection of tools and jar files.  I normally keep all my various code in a directory directly under @$HOME@ called @/projects@, I'll refer to it as @$PROJECTS@ from now on.  I'm a total n00b when it comes to Java development, so I don't know what other people do for these types of things, but I've added a folder to keep all things like the Android SDK called @$PROJECTS/.java@.  
+
+<pre><code class="shell">bash-3.2$ wget http://dl.google.com/android/android-sdk-mac_x86-0.9_beta.zip</code></pre>
+
+Unzip this file and symlink it to @$PROJECTS/.java/android, you'll see why in a minute.  Please note that you'll need a different file unless you're using a Mac.
+
+<pre><code class="shell">bash-3.2$ ln -s $PROJECTS/.java/android-sdk-mac_x86-0.9_beta $PROJECTS/.java/android</code></pre>
+
+The final step is to add the SDK to your @$PATH@ so you can access the command line goodies.  If you remember, I symlink'd the current release of the Android SDK to @$PROJECTS/.java/android@.  When the next version of Android is released I can simply download it and change the symlink and I won't have to change my paths.  This will make testing my software against various releases extremely simple.  Your platform might be different, but on mine, I can change @$PATH@ by editing @$HOME/.profile@.  The actual files that you will need accessible from your path are at @$PROJECTS/.java/android/tools@, so that's the value I'm adding to the end of my path.
+
+<pre><code class="shell">export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin::$HOME/.java/android/tools:$PATH</code></pre>
+
+You should know be able to access any of the pre-bundled command line tools for the Android SDK in a simple and flexible manner.
+
+h3. Creating An SDCard For Your Emulator
+
+There are times that you want to store some data or media that can act in the same way as an SDCard.  The SDK has a tool that you can use called @mksdcard@ which can be used to create an SDCard iso, which can then be mounted on the emulator.  Creating one is simple.  I recommend setting up a common folder for assets that you might want to use across your various projects.  In my case, that would be at @$PROJECTS/.java/shared@.  Here's a listing of the switches for this tool:

@@ -55,7 +55,7 @@ a.image:hover { background: #FFFFFF; }
   margin-bottom: 1em;
 }
 
-h1 { font-size: 2em; margin-top: 0.5em; }
+h1 { font-size: 2em; margin: 0.5em 0; }
 
 #footer {
   margin-top: 1em; 
@@ -64,5 +64,7 @@ h1 { font-size: 2em; margin-top: 0.5em; }
   border-top: .5em solid #0066aa;
 }
 
-ul.meta, p.meta { float: left; margin-right: 2em; }
+ul.meta, p.meta { float: left; margin-right: 3em; }
 ul.meta li { line-height: 1.5em; }
+
+ul.posts, ul.projects { font-size: larger; line-height: 1.5em; }

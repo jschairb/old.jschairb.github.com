@@ -1,0 +1,16 @@
+--- 
+title: Emacs Shell Ansi Colors
+layout: post
+---
+
+h1. {{ page.title }}
+
+In a "previous post":http://www.grokblok.com/2007/9/18/emacs-autotest-integration I mentioned a funky character encoding issue with my Emacs Autotest output.  I finally looked into the cause and came across the solution.  I just needed to enable ansi-colors in my Emacs shell.
+
+In your .emacs file, add the following:
+
+<pre><code class="elisp">;; Add color to a shell running in emacs 'M-x shell'
+(autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t)
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)</code></pre>
+
+Cheap and easy.  Now, you'll get all the cool ansi colors, like the kids.

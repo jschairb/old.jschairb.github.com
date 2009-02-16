@@ -1,0 +1,11 @@
+--- 
+title: Utili-Tool, A Camping Application
+layout: post
+---
+
+h1. {{ page.title }}
+
+Something that I use everyday that I've just released for public use is the "Braintree Tools Site":http://tools.getbraintree.com/, which is just a "Camping":http://code.whytheluckystiff.net/camping application frontend to the "Braintree APIs":http://developer.getbraintree.com.  It's also a simple collection of tools that will help you figure out if your 'hashing' is correct and what response look like.  It's kinda like a sandbox, but you don't need to go so far as to write your own script.  You can just do it from the web.
+
+There is certainly truth in the statement that the best tools are created by the people who actually use them.  A major part of my job at "Braintree":http://www.braintreepaymentsolutions is to ease the task of integration for our customers.  I come into contact with people who are using everything from Ruby on Rails to customized PHP to Oracle Forms.  The nice thing about our API is that it doesn't matter.  You're simply making HTTP GETS/POSTS to interact with the Gateway.  For me, customer support at it's most basic is just typing a query string into a browser address bar and looking at the response.  
+

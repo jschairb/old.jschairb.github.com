@@ -1,0 +1,24 @@
+--- 
+title: Oh Say, Can You IRC?
+layout: post
+---
+
+h1. {{ page.title }}
+
+It's that recently there has been a lot of interest in communicating with people through "Internet Relay Chat (IRC)":http://en.wikipedia.org/wiki/Internet_Relay_Chat, or at least in the corner of the internet that I frequent.  I think it's a really flexible medium that lends itself to instant collaboration.  One of the areas that I think it could bear much fruit is in the way of online help.  
+
+That's one of the reason's that I "suggested":http://groups.google.com/group/columbusrb/browse_thread/thread/5600558a94cb3fac starting the "#columbusrb":irc://irc.freenode.net/columbusrb channel.  Think of it this way, if you are not working in an all Ruby shop, how do you get your help?  Mailing lists?  Blogs?  These are all valid, but sometimes, there's a more immediate need for help.  I envision "#columbusrb":irc://irc.freenode.net/columbusrb  to be a place where people can come to for help, it's my effort to help spur the community on to larger growth.  If you work in a large company, and you're trying to bring ruby in, look to some of these channels for instant help.
+
+Do take the time and check out some of these channels, my nick is *ch0wda*, which is an obscure "Mayor Quimby":http://en.wikipedia.org/wiki/Mayor_Quimby reference from a "Simpson's episode":http://www.snpp.com/episodes/1F19.html, if you must know.  I plan on posting some more about IRC in the coming weeks.
+
+So places that I'm known to frequent:
+* "#columbusrb":irc://irc.freenode.net/columbusrb - Home of the "Columbus Ruby Brigade":http://www.columbusrb.com
+* "#camping":irc://irc.freenode.net/camping - Devoted to the greatest 4KB MVC framework on the interwebs, "Camping":http://code.whytheluckystiff.net/camping
+* "#rails-contrib":irc://irc.freenode.net/rails-contrib - Follow along as patches and tickets get worked on the "Rails Trunk":http://dev.rubyonrails.org/timeline
+* "#midwest.rb":irc://irc.freenode.net/midwest.rb - A great collection of Rubyists from all over the Midwest dedicated to helping each other out.
+
+These are some great places, but just don't have the time to hang out in:
+* "#merb":irc://irc.freenode.net/merb - A lot of really cool work is going into this framework of Mongrel + ERB
+* "#jruby":irc://irc.freenode.net/jruby - Many people keep a watchful eye over how this project is turning out
+* "#emacs":irc://irc.freenode.net/emacs - The IDE that acts as an operating system
+* "#ruby-lang":irc://irc.freenode.net/ruby-lang - Discuss your favorite language

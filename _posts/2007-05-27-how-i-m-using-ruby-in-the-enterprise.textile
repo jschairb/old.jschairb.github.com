@@ -1,0 +1,26 @@
+--- 
+title: How I'm Using Ruby in the Enterprise
+layout: post
+---
+
+h1. {{ page.title }}
+
+Some of you might know that I recently started working at "Cardinal Health"://http://www.cardinal.com, which may or may not seem relevant until you realize that Cardinal is #19 on the "Fortune 500":http://money.cnn.com/magazines/fortune/fortune500/2007/full_list/index.html.  Taking that in conjunction with the fact that I worked at "JPMorgan Chase & Co.":http://www.jpmorganchase.com for 5 years and they are listed at #11 on the "Fortune 500":http://money.cnn.com/magazines/fortune/fortune500/2007/full_list/index.html and I feel comfortable in saying that I know there is a spot in all enterprises for Ruby and Rails.  I'm finding that decision makers are more open to open source, more open to going outside the  enterprise comfort zone, and more open to selecting the solution is is done the quickest, with the most business value, and meets their needs the most.
+
+So, what am I doing?  In short, I'm helping technology leaderships make the best investment decisions, while becoming an industry leader, not an industry follower.  I'm proving to them that you don't needs teams of consultants or a pricey support contract to business value out of the data that your organization holds.  I'm proving that Ruby belongs.
+
+h4. Rails at JPMorganChase
+
+At JPMC, I led the team that created the 1st fully-supported and fully-funded Rails application inside the bank.  Of course, things got complicated because we had to work with other technologies and people who weren't receptive to Ruby, but that's the real trick anyways, isn't it?  In 3 short months, we went from discussion and a single SVN commit to an application with a user community in excess of 10,000 people.  We were hooked into the global authentication system, and living like good citizens of the enterprise application community.  The benefit is that now people can more easily get access to the revenue generating systems and spend less time just sitting at their desk when they start new (which was the basic premise of the application that we created).  
+
+I'm a little unfamiliar with the current status of the application, but the current project lead, "John Andrews":http://xandrews.blogspot.com has taken the ball and run with it.  The user community continues to grow and the application continues to morph and integrate and become fully assimilated within the JPMC universe.  One of JPMC Retail banks lead architects, who is a Smalltalk developer at heart is very interested in Rails and has been suggesting it to other teams in order to help him make a strategic decision.  It could perhaps become as ubiquitous to them as Java or .NET.  The part that I'm most proud of is that 1 year ago, there were no full-time Ruby/Rails jobs at JPMC, today there are 3, and that's a great thing for the community.
+
+h4. Ruby at CardinalHealth
+
+At Cardinal, I'm doing something that I think is even more edge-leading and innovative.  I'm in the process of deploying several small "Camping apps":http://code.whytheluckystiff.net/camping, which work together to create a dashboard of information for IT leadership to make investment decisions.  It's the simplest possible thing that could be done.  I take several ruby scripts that use active record and I pull data, manipulate it into something a little more friendly and then load it into an SQLite database that my applications use.  I'm not tied to the system of records, but since these data mover scripts are called from cron, they'll give a very accurate depiction of the environment.  I plan on blogging about this idea further. 
+
+What is the effect?  In short, it's been marvelous.  I've done in several weeks something that probably would have taken much longer to do in other frameworks.  It's exactly what the decision makers needed at the time, no more, no less.  The first taste has been enjoyed, and now they want more.  Ruby has been established as a tool that gets things done.  This will place dynamic languages into conversations in team AD team meetings where previously they would not have been.  I'm really looking forward to extending on the work that I've started there.
+
+h4. Exhortations and Encouragement
+
+If you are looking to try to get Ruby or Rails in the door at your job, take heart, there is a bright future on the horizon.  Eyes are opening, discussions are being had, and Ruby is finding itself in some of the most unlikely places.  What can you do?  You can look for opportunities to present themselves.  Start small, write ruby scripts instead of bash scripts for some automated tasks.  Use ruby to parse files that get data moved from one system to another.  Prove to your boss, and their boss that not only is Ruby an incredibly beautiful and capable language, but it's also one that will provide them the quickest business value in their toolbox.

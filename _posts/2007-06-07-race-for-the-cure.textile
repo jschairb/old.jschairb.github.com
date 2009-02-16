@@ -1,0 +1,10 @@
+--- 
+title: Race for the Cure
+layout: post
+---
+
+h1. {{ page.title }}
+
+It's been several weeks ago, but my company, "Cardinal Health":http://www.cardinal.com paid for my entry in the "2007 Race for the Cure":http://www.komencolumbus.org/race/ in Columbus, Ohio.  More than 37,000 people showed up to run in this worthy cause.  While I didn't raise as much money as I would have liked to, you can still donate "here":http://www.komencolumbus.org/donations/.  It was really heart wrenching to see so many people who were running "In Memory Of" Grandma Jones, Aunt Doris, or Mother.  Please consider giving some money to a group that helps to eradicate this terrible disease.  Let me state it like this, we can put a man on the moon and bring him home safely, but we can't find a cure for a disease that takes wives, mothers, daughters, aunts, and grandmas?  We need a Jack Kennedy style mandate to have this disease beaten in the next 10 years.  With your donations, that could help.
+
+This was my first 5k, and the first time that I've ever ran more than 3 miles without stopping.  I was very pleased with my "results":http://www.hermescleveland.com/results/2007/Columbus/OVERALL.HTM.  I finished 5333 out of almost 7000 people with a time of 40:10 (although I didn't actually cross the start line at the beginning until 2:30 into the race).  That may not seem like much, except for the fact that I was probably one of the heaviest people there.  For those that don't know me by sight, there's not a lot of difference, visually between myself and the average NFL offensive lineman, 6'4" and between 310 and 340 lbs.  

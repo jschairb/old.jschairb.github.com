@@ -1,0 +1,10 @@
+--- 
+title: Joining GoNowDo
+layout: post
+---
+
+h1. {{ page.title }}
+
+!>/assets/2007/9/26/gonowdo.gif! Today marks the last day that I'll be working at "Cardinal":http://www.cardinalhealth.com.  I'm extremely excited to be working for a new company, "GoNowDo":http://www.gonowdo.com.  We're going to be working on solving some interesting problems in the online travel industry.  Stay tuned for more information.
+
+Thanks to everyone at Cardinal!

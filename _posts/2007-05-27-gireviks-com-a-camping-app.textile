@@ -1,0 +1,12 @@
+--- 
+title: Gireviks.com, A Camping App
+layout: post
+---
+
+h1. {{ page.title }}
+
+If you're the type that likes to push yourself physically, I can't say enough about "Kettlebells":http://en.wikipedia.org/wiki/Kettlebell, which are a Russian tool for building strength, agility and conditioning.  To picture them, think of a cannonball with an iron handle on one side.  I've been working out with them for roughly 2 months, and I've lost weight, gained muscle, and felt that my overall conditioning has improved.  In the Russian culture, kettelbells (girya in Russian) are the most obvious form of strength, much like the old-school barbells with the balls on each end would be here in the United States.  Those strongmen who worked out with them regularly were called Gireviks (meaning Kettlebell men).
+
+Currently, I'm working out with the 53lb one, trying to work my way up to 225 One-Armed "Snatches":http://en.wikipedia.org/wiki/Snatch_%28weightlifting%29 in 10 minutes.  It's really difficult, but I'm up to 111, as of yesterday.  I like to keep strict records of my progress, and I hate using pen and paper.  This has led me to create "Gireviks":http://www.gireviks.com, which is a very small "Camping":http://code.whytheluckystiff.net/camping application.  It's less than 550 lines of code, and I think that I can make it ever shorter, with some "condensing metaprogramming".  
+
+I hope I'll have the time to continue to make this a nice domain-specific app, I've got some great ideas for it, but I've also got a lot of plates in the air.  If you're interested in learning more about kettlebell lifting, you should read "Enter the Kettlebell":http://www.enterthekettlebell.com by "Pavel Tsatsouline":http://www.dragondoor.com/pavel_bio.html, and if you're interested in keeping track of your lifting progress, you should, of course use "Gireviks.com":http://www.gireviks.com.

@@ -1,0 +1,8 @@
+--- 
+title: Rails 2.0 + CRB
+layout: post
+---
+
+h1. {{ page.title }}
+
+For those of you in the Columbus area, I'll be speaking at the "Columbus Ruby Brigade":http://columbusrb.com meeting this evening regarding Rails 2.0.  This will be a high-level talk around some of the new things and some of the deprecated behaviours in everyone's favorite web framework.

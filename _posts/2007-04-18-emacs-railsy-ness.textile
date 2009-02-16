@@ -1,0 +1,34 @@
+--- 
+title: Emacs Railsy-ness
+layout: post
+---
+
+h1. {{ page.title }}
+
+For the most part, I followed the instructions at "Dima's Rails On Emacs page":http://dima-exe.ru/rails-on-emacs.  This worked for the most part, however there were several gotchas that crept up as I was working my way through.  Here's what I did, that might be different than the other tutorials:
+
+# I placed the @snippets.el@ and @find-recursive.el@ into the folder that I checked out the Rails on Emacs code.  (Perhaps this is what he meant by install, but I originally had them in .emacs.d, and that was wrong.) ruby-inf.el did, however remain in .emacs.d
+# I reinstalled _ruby_ and installed _ruby-elisp_ from synaptic.  I did this because I read that when you install ruby on debian/ubuntu it will automatically install the necessary emacs modes.
+# *Tip* After opening emacs, change your buffer to "Messages" it will have all the init information, and I found it very handy for debugging.
+
+I'm also going to install the "Emacs Code Browser(ECB)":http://ecb.sourceforge.net/, which is supposed to provide some parsing of files to show methods, and other view-related functions.
+
+Here's my .emacs file:
+<pre><code class="elisp">(custom-set-variables
+  ;; custom-set-variables was added by Custom -- don't edit or cut/paste it!
+  ;; Your init file should contain only one such instance.
+ '(standard-indent 2))
+(custom-set-faces
+  ;; custom-set-faces was added by Custom -- don't edit or cut/paste it!
+  ;; Your init file should contain only one such instance.
+ '(default ((t (:stipple nil :background "#000000" :foreground "#00ff00" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 164 :width normal :family "adobe-courier")))))
+;; this line makes a file executable after saving it
+(add-hook 'after-save-hook 'executable-make-buffer-file-executable-if-script-p)
+(setq load-path (cons "~/.emacs.d/emacs-rails" load-path))
+(require 'rails)</code></pre>
+
+h3. Resourceful Links
+
+* "Rails on Emacs instructions":http://dima-exe.ru/rails-on-emacs
+* "Rails on Emacs Rubyforge":http://rubyforge.org/projects/emacs-rails/
+* "HowToUseEmacsWithRails on Rails wiki":http://wiki.rubyonrails.org/rails/pages/HowToUseEmacsWithRails

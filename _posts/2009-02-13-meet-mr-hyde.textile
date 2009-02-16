@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: post
 title: Meet Mr. Hyde
 ---
 
 h1. {{ page.title}}
 
-This blog is now powered by jekyll.
+This blog is now powered by jekyll.  I love the simplicity and whatnot.

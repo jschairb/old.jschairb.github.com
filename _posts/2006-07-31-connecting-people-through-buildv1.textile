@@ -1,0 +1,12 @@
+--- 
+title: Connecting people through BuildV1
+layout: post
+---
+
+h1. {{ page.title }}
+
+I want to announce a side project that I've been working on in my spare time.  It's called "BuildV1":http://www.buildv1.com/ and it's all about connecting people who want to work with startups or entrepreneurs.  It's about making that initial connection with someone on the road to ... well, wherever you want to go.  You can read the rationale behind this on the "BuildV1 blog":http://blog.buildv1.com/  Eric Stephens, my partner in BuildV1 describes what we're trying to do like this:
+
+bq. I see BuildV1 posts as advertisements that start conversations. My hope is that reaching out to entrepreneurs across the internet will yield more high quality conversations that one can find solely reaching out to their private network of friends and colleagues.
+
+Eric and I are a perfect example of this, as he lives in New York City, while I live in "Columbus, Ohio":http://ohiostatebuckeyes.com. I contacted him about another project, and through our conversations we noticed that we were both looking for the same community of people that had the entrepreneurial spirit.  We came up with the BuildV1 idea, Eric did all the templates, and I did all the Railin'.  Anyways, if you're interested in something like this, please do "post":http://www.buildv1.com/posts/join, and best of luck to you in your entrepreneurial journey.

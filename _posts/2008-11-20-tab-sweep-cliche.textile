@@ -1,0 +1,25 @@
+--- 
+title: Tab Sweep Cliche
+layout: post
+---
+
+h1. {{ page.title }}
+
+It's lame, I know it, but I'm clearing out my browser.  You might find these of interest, you might not, but as always, YMMV.
+
+<dl>
+  <dt>"Pingdom":http://pingdom.com/</dt>
+  <dd>Maybe everybody already know about Pingdom, but this is the first I've heard of them specifically.  Looks like very simple service at a reasonable price that gives you an external view of your availability.</dd>
+  <dt>"Form Builders on Github":http://github.com/search?q=form+builder</dt>
+  <dd>I still find the form builders something that's difficult to get right, so I normally just rely on others.</dd>
+  <dt>"Kreditor: Swedish Payment Processing":http://kreditor.se/index.php?lang=en</dt>
+  <dd>Sweden's leading provider of invoicing and installment plans over the Internet, they are of interest to me because they are known to have written gateway application in Erlang. Dr. Erik Stenman is their CTO and was a project manager for Scala, helping it get to 1.0. </dd>
+  <dt>"Sorta Proper Rubygems on Ubuntu":http://snipplr.com/view/6470/setting-rubygems-under-ubuntu-hardy/</dt>
+  <dd>I've never been content with installing the rubygems package in Ubuntu because of how old it is, but it would be nice to be able to be able to start at the package.  This snippet is giving me a little inspiration into a small bash script that could be devised to install the package and then update the installed package via rubygems.  It bears further investigation.</dd>
+  <dt>"Puppet Best Practice":http://reductivelabs.com/trac/puppet/wiki/PuppetBestPractice</dt>
+  <dd>This goes hand-in-hand with the previous link, Puppet is awesome, a little tricky to get setup, but awesome nonetheless.  It has an immense amount of functionality, and a fairly easy syntax.</dd>
+  <dt>"Yet Another Emacs Fuzzy Find In Project":http://ruby-on-the-interrails.blogspot.com/2008/10/introducing-fuzzy-find-in-project.html</dt>
+  <dd>I saw yet another because the comments list several other implementations including ido.el and the fuzzy search in rinari as well as the emacs-rails package.</dd>
+  <dt>"RESTful Online Shopping Cart Design":http://alandean.blogspot.com/2008/11/what-restful-basket-checkout-might-look.html</dt>
+  <dd>This is a very high level discussion about what a truly RESTful shopping cart checkout page would entail.  The author specifically proposes that only the client should have knowledge of the contents of the cart through the usage of some sort of personalized resource.  I'm not sure I agree, but it's an interesting design discussion.  See "here":http://alandean.blogspot.com/2008/11/when-basket-checkout-isn-restful.html and "here":http://alandean.blogspot.com/2008/11/on-restful-basket-state.html for more discussion.</dd>
+</dl>

@@ -1,0 +1,152 @@
+--- 
+title: Is This Customer Support?
+layout: post
+---
+
+h1. {{ page.title }}
+
+I hate to be a dick about it, but I needed help installing an EV SSL certificate, so I went to the certifying authorities website and tried to find some articles or tutorials.  No dice, poorly documented, inaccurate.  They had a feature that let me "chat" realtime with one of their customer support folks.  Perhaps I'm really missing something major, but I think this is absolutely terrible.
+
+<pre>
+Malcolm: Hi!!
+
+Malcolm: How can I assist you?
+
+you: i'm trying to install an EV certificate on Apache
+
+you: running Ubuntu
+
+Malcolm: Ok.
+
+you: i'm getting an error in IE7 only
+
+Malcolm: can I have your order#
+
+you: sure: #1234567
+
+Malcolm: Please wait.
+
+you: sure
+
+Malcolm: I did installation check from our end, it seems that the root and intermediate certificates are not installed properly.
+
+Malcolm: please install the root and intermediate certificates.
+
+you: ok, there aren't _any_ instructions anywhere on how to do that
+
+Malcolm: Please wait.
+
+Malcolm: Please go through the below link.
+
+Malcolm: https://support.nameprotected.com/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=264&nav=0,1,88
+
+you: i've done all that
+
+you: the site works with ssl in every browser BUT IE7
+
+you: it has to do with EV portion
+
+you: your documentation is woefully inadequate
+
+Malcolm: Ok. Please send mail to support@nameprotected.com. We will solve your query.
+
+you: I HAVE
+
+Malcolm: Can I have your ticket number.
+
+you: #987654321
+
+Malcolm: Please wait.
+
+you: what i'm saying is that your documents that i keep getting referred to are not clear
+
+you: on how to install a EV certificate whether it be root or intermediate
+
+Malcolm: Please wait.
+
+Malcolm: could you please tell, at which place you are getting error
+
+Malcolm: while installing the certificate.
+
+you: I'm getting an error in IE7 when attempting to go to the page... it says that the certificate is not validly signed
+
+you: no error in firefox or safari
+
+you: to install the EV certificate, i downloaded the EV-Auto Enhancer for your website and used it as the SSLCertChainFile instead of the one you sent to, as directed by your site
+
+you: for/from
+
+Malcolm: Please go throgh the below link for evssl auto enhancer
+
+Malcolm: https://support.nameprotected.com/index.php?_m=knowledgebase&_a=viewarticle&kbarticleid=1076&nav=0,1,82
+
+you: perhaps you're not listening to me
+
+you: I'VE ALREADY DONE THAT
+
+you: please do not send another link to your documentation as it is completely incomplete
+
+you: do you have a phone support center?
+
+Malcolm: Phone Support will be available on Monday - Friday around 9am - 5pm GMT
+
+Malcolm:
+
+Malcolm: US + 1.555.1212
+
+you: ok, so i've downloaded the file and have it set as the value for SSLCertificateChainFile
+
+you: it's still not working
+
+Malcolm: I have checked your domain in IE7
+
+Malcolm: its working without  any error
+
+you: with a green bar?
+
+Malcolm: Yes.
+
+you: to indicate EV SSL?
+
+Malcolm: Yes.
+
+you: try again because i'm getting certificate error:navigation blocked
+
+Malcolm: Please wait.
+
+you: do i need to rename the file to what my original ca-bundle was called?
+
+Malcolm: No.
+
+Malcolm: Now am getting error.
+
+you: k
+
+Malcolm: the error because root and intermediate certificates are not installed properly
+
+you: you already said that
+
+you: then you sent me a link
+
+Malcolm: Yes.
+
+you: which was followed
+
+you: then i get the error
+
+you: which is the root which is the intermediate?
+
+Malcolm: Send your query to support@nameprotectedcom. We will escalate to our next level support
+
+Malcolm: ca bundle file
+
+you: you're killing me
+
+Malcolm: I apologize for the inconvenience caused. send mail to us. We will escalate to next level support and solve your query.
+
+you: great!!!!! thanks for all your help!
+
+Malcolm: Welcome!!
+</pre>
+
+Am I completely missing it?

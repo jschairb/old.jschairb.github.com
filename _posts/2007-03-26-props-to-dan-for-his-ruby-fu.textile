@@ -1,0 +1,14 @@
+--- 
+title: Props to Dan for his Ruby-Fu
+layout: post
+---
+
+h1. {{ page.title }}
+
+I just wanted to give a shoutout to "Dan":http://www.dcmanges.com/ for his "interview":http://weblog.workingwithrails.com/2007/3/26/hackfest-winner-interview-dan-manges on "Working with Rails":http://www.workingwithrails.com.  He finished 2nd in their Hackfest, and as a result, is going to RailsConf for free.  Of course, my favorite part of the interview had to be the answer to the question about how Dan got involved with Rails:
+
+bq. When I started working for JPMorganChase I did web development in PHP. In the fall of 2005 Joshua Schairbaum, my colleague, started using Rails and really liked it. He encouraged me to check it out, and soon we were using Rails for all our small projects. After successful delivery of several small web apps, Josh was able to sell Rails to upper management, and we now use Rails for a very large access administration application.
+
+The "sell" to upper management went pretty smoothly due to the fact that we were delivering, in no small part to Dan's efforts.  Neither he, nor I work at the monolithic bank anymore, but I think he's going to be making some waves at "Thoughtworks":http://www.thoughtworks.com, just as I plan to do at my "new employer":http://www.cardinal.com.
+
+I just want to say thanks, Dan!  Also, in the interview, he mentions a "plugin":http://code.google.com/p/scope-out-rails/ by our good friend, "John X Andrews":http://xandrews.blogspot.com.  I highly recommend that plugin for all your scoping needs.

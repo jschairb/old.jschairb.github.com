@@ -1,0 +1,8 @@
+--- 
+title: My5 Songs I Can't Live Without That You've Probably Never Heard Of
+layout: post
+---
+
+h1. {{ page.title }}
+
+# The Bomber by The James Gang
