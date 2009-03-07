@@ -1,0 +1,8 @@
+---
+layout: post
+title: Meet Mr. Hyde
+---
+
+h1. {{ page.title}}
+
+This blog is now powered by "jekyll":http://github.com/mojombo.  I've deleted a lot of irrelevant posts.  Sorry for the noise in the feed if it got jacked up.  I'm going to merge my "tumblr.com":http://tumblr.com account in within the next few days, but then I promise I'll leave it alone, new content only.  Thanks "mojombo":http://github.com/mojombo!
