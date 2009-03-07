@@ -1,0 +1,14 @@
+h1. Setting Up Blackberry Development for the Mac
+
+I recently purchased a "Blackberry Storm":http://na.blackberry.com/eng/devices/blackberrystorm/, and wanted to try my hand at making some applications for it.  Nothing fancy, just some customized dashboard type things.  The "Blackberry Development Site":http://na.blackberry.com/eng/developers/ has some good resources, but it seems that an overwhelming majority of Blackberry developers are "Windows":http://is.gd/AJ users.  Here's a quick tutorial for getting a development environment up and runnig on the Mac.
+
+h2. Prerequisites
+
+There's a couple of things that you'll need to have installed before we start.  These are pretty basic items, so if you don't have them installed, there are plenty of tutorials around.
+
+* Eclipse
+* JDK
+
+h2. Install the Eclipse Plugin
+
+The first thing that we need to do is install the "Blackberry Eclipse SDK":http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp.  It can be added using the Plugin Update tool.  The address is @http://www.blackberry.com/go/eclipseUpdate@.
