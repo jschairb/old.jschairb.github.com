@@ -8,8 +8,7 @@ h1. {{ page.title }}
 While cleaning out my gmail inbox, I ran across an email from my friend, "Dan Manges":http://blog.dcmanges.com/.  We had been talking about the new deprecation warnings in Rails and I had mentioned that I kept getting a warning in my logs and tests that said:
 <pre>DEPRECATION WARNING: @flash is deprecated!</pre>
 
-This was strange since the only usage that I had in either my controllers or views was like this:
-<pre><code class="ruby">flash[:success]</code></pre>
+This was strange since the only usage that I had in either my controllers or views was like this: @flash[:success]@
 
 Well, the point of this little story is that Dan found a "ticket":http://http://dev.rubyonrails.org/ticket/7553 describing this phenomena in detail.  Here's what happens, when you have a partial named _flash.rhtml that calls your flash object, an instance variable is created for the name of the partial, like normal.  The problem was that the deprecation warning just looked for the creation of an instance variable named "flash", not necessarily if it represented a flash object. 
 

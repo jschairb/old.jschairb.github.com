@@ -9,8 +9,11 @@ In a "previous post":http://www.grokblok.com/2007/9/18/emacs-autotest-integratio
 
 In your .emacs file, add the following:
 
-<pre><code class="elisp">;; Add color to a shell running in emacs 'M-x shell'
+
+{% highlight cl %}
+;; Add color to a shell running in emacs 'M-x shell'
 (autoload 'ansi-color-for-comint-mode-on "ansi-color" nil t)
-(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)</code></pre>
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+{% endhighlight %}
 
 Cheap and easy.  Now, you'll get all the cool ansi colors, like the kids.

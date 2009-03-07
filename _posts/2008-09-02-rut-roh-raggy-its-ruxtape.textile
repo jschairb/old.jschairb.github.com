@@ -9,6 +9,6 @@ I was a big fan of "Muxtape":http://www.muxtape.com, and I was extremely disappo
 
 Opentape is really cool, but it's written in PHP and I prefer Ruby.  It's a little early, but I wanted to announce that I'm working on an Opentape imposter called, 'Ruxtape'.  Why early?  Because I haven't exactly got a working flash player yet. :(  I'm having a little trouble with the controls and such and so I'm hoping that before the next time I get a chance to work on it (maybe next week) somebody will have taken an interest and run with it.  You can find the source on Github.  "Ruxtape Source":http://github.com/ch0wda/ruxtape
 
-<r:assets:image title="ruxtape-screenshot" class="article_image"/>
+<img src="/images/ruxtape.png" alt="Ruxtape" />
 
 My goal is to have the same player control functionality that Opentape currently has and I'm trying to _vendor_ all the gems and provide a "Rack":http://rack.rubyforge.org adapter so anyone running "Passenger":http://modruby.com can just clone it and it's up and running without any other dependencies.  I am especially looking for people who understand Flash players and unobtrusive javascript.

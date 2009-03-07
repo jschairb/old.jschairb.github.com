@@ -5,7 +5,6 @@ layout: post
 
 h1. {{ page.title }}
 
-Just a heads up to anyone who's trying to remotely connect to their Ubuntu-based MySQL server, you need to enable your server for remote networking.  Edit _/etc/mysql/my.cnf_ and look for this line:
-<pre><code class="shell">bind-address 127.0.0.1</code></pre>
+Just a heads up to anyone who's trying to remotely connect to their Ubuntu-based MySQL server, you need to enable your server for remote networking.  Edit _/etc/mysql/my.cnf_ and look for this line, @bind-address 127.0.0.1@
 
 Comment it out and reap the whirlwind!  Also as a note, I had trouble connecting remotely using 'root' even though I made the necessary grants.  I'm too lazy to track down and see if this is a feature or not.

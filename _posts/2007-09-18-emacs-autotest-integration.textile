@@ -9,9 +9,11 @@ I've been read in several places about how to get "emacs":http://www.gnu.org/sof
 
 To begin with, you'll need to download the "autotest.el":http://www.emacswiki.org/cgi-bin/emacs/download/autotest.el file and also a depencency, "toggle.el":http://www.emacswiki.org/cgi-bin/emacs-en/download/toggle.el.  From there, I simply added the following to my .emacs file:
 
-<pre><code class="elisp">;; adding autotest integration
-  (require 'toggle )
-  (require 'autotest)</code></pre>
+{% highlight cl %}
+;; adding autotest integration
+(require 'toggle )
+(require 'autotest)
+{% endhighlight %}
 
 Restart emacs, and you should be good to go.  Note, I also had to add the "unit-test.el":http://www.emacswiki.org/cgi-bin/emacs/download/unit-test.el file, but that wasn't mentioned anywhere on the wiki.
 

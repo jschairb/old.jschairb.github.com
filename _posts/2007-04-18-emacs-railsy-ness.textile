@@ -14,7 +14,9 @@ For the most part, I followed the instructions at "Dima's Rails On Emacs page":h
 I'm also going to install the "Emacs Code Browser(ECB)":http://ecb.sourceforge.net/, which is supposed to provide some parsing of files to show methods, and other view-related functions.
 
 Here's my .emacs file:
-<pre><code class="elisp">(custom-set-variables
+
+{% highlight cl %}
+(custom-set-variables
   ;; custom-set-variables was added by Custom -- don't edit or cut/paste it!
   ;; Your init file should contain only one such instance.
  '(standard-indent 2))
@@ -25,7 +27,8 @@ Here's my .emacs file:
 ;; this line makes a file executable after saving it
 (add-hook 'after-save-hook 'executable-make-buffer-file-executable-if-script-p)
 (setq load-path (cons "~/.emacs.d/emacs-rails" load-path))
-(require 'rails)</code></pre>
+(require 'rails)
+{% end %}
 
 h3. Resourceful Links
 

@@ -81,6 +81,27 @@ div#post ul li {
 div#post dl { font-size: 14px; }
 div#post dl dd { margin-bottom: 1em; }
 
+blockquote {
+  font-style: italic;
+  padding: 0 1.5em;
+}
+
+pre {
+  background:black none repeat scroll 0% 0%;
+  color: white;
+  border-color:#BBBBBB rgb(221, 221, 221) rgb(221, 221, 221) rgb(187, 187, 187);
+  border-style:solid;
+  border-width:1px;
+  line-height:1.5;
+  margin: 1em 1em;
+  overflow:auto;
+  padding:1em;
+}
+
+code { font-size: 1.2em;}
+
+code.shell { font-family: "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", monospaced; white-space: pre; font-weight: normal; color: white; background: black; display: block; padding: 0.75em; overflow: auto; font-size: 1em; line-height: 1.5em; margin: 0.75em 0;}
+
 p { margin-bottom: 1em; font-size: 14px; line-height: 1.25em; }
 
 p.meta { font-size: 16px; font-weight: bold; margin-bottom: auto; }

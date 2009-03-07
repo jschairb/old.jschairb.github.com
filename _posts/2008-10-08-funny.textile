@@ -1,6 +1,7 @@
 --- 
 title: Funny
 layout: post
+published: false
 ---
 
 h1. {{ page.title }}
