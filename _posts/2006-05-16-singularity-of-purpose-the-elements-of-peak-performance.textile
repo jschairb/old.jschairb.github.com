@@ -5,6 +5,46 @@ layout: post
 
 h1. {{ page.title }}
 
+p(meta). May 16, 2006
+
 Once of the benefits of never throwing anything is away is going back and finding pieces of information that you've acquired over the years.  For instance, I was cleaning out my garage this weekend when I stumbled upon a packet from a seminar titled, "Peak Performance for Wrestling: Sport Psychology Training for Mental Toughness" given by Dr. Chris Stankovich, of "Champion Athletic Consulting":http://www.championathletic.com.   This was a great seminar and some of these principles I've tried to translate for myself off the mat and into the cubicle. 
 
-The basic gist of the seminar was establishing peak performance in wrestling by setting goals of varying length while focusing on 3 elements: physical, technical, and mental.  As I was reading this, it brought to my mind the benefits that those of us in the technology field could take as lessons learned. The analogy may be a stretch for some, but stick with me.  No group of individuals have a more focused "singularity of purpose" than wrestlers.  I think it could be said that those in technology or even business rely on many of the same principles.  While most of us are part of a team, when all the fat is boiled it, it's all about individual performance.
+The basic gist of the seminar was establishing peak performance in wrestling by setting goals of varying length while focusing on 3 elements: physical, technical, and mental.  As I was reading this, it brought to my mind the benefits that those of us in the technology field could take as lessons learned. The analogy may be a stretch for some, but stick with me.  No group of individuals have a more focused "singularity of purpose" than wrestlers.  I think it could be said that those in technology or even business rely on many of the same principles.  While most of us are part of a team, when all the fat is boiled it, it's all about individual performance.Most of the things Dr. Stankovich discusses are things you can can find in about every managerial book out there, but his focus on athletic performance places a different lens on it.  Just in case everyone else is like me and needs "gently reminded":http://www.43folders.com/2006/04/06/dr-johnson/ of things I already know rather than told things I don't, I'll go over a couple aspects of Dr. Stankovich's goal-setting philosphy.  Of course, he mentions that goals should be specific, measurable, and realistic, but he also says to set goal ladders and set goals based on process versus outcome.
+
+h2. Physical
+
+This is the most tangible area of peak performance prepartion, but is probaly the most overlooked.
+* I will get at least 7 hours of sleep a night.
+* I will work 3 hours everyday without AIM, phones, or email.
+* I will remove printed articles from my desk within 2 days of reading them.
+
+h2. Technical
+
+This aspect of peak performance revolves on being up-to-date with your technical skills.
+* I will subscribe to the "Rails changelog RSS feed":http://dev.rubyonrails.org/timeline?milestone=on&ticket=on&changeset=on&wiki=on&max=50&daysback=90&format=rss and see what's going in and coming out.
+* I will read the "Apache docs on configuration files":http://httpd.apache.org/docs/2.0/configuring.html in order to better understand how I can leverage some of the built-in features to my advantage.
+* 3 days a week, I will only listen to technology-oriented podcasts on the drive into work.
+
+h2. Mental
+
+Easily the most important aspect of peak performance is the mental.  Many people know they are in their "zone" when they're writing their best code, giving their best presentation, or interacting in a great way with their clients.  It's being able to knowingly attain this state that makes all the difference.
+* I will complete 10 "mind exercises":http://www.websudoku.com/ a week.
+* I will focus on the quality of my work , rather than the quantity.
+* I will develop some cue words that I can fall back on when I'm looking for direction: less, test, commit.
+* I will reduce my anxiety during presentations by mentally imaging how a successfull presentation will go.
+* "In order to rise above mediocrity I will learn to use failure as a learning experience and develop new strategies for next time." - Dr. Stankovich
+
+h2. Examples
+
+Here are some fine examples from the wrestling community of those who have had excelled in setting and attaining lofty goals.
+* "Cael Sanderson":http://www.caelsanderson.com/ from Iowas State went undefeated in college, including being a national champion 4 times.
+* "Matt Hoover":http://www.nbc.com/The_Biggest_Loser/contestants/matt/ from NBC's the Biggest Loser is a former University of Iowa wrestler, and it was no surprise to me that he won Season 2.
+* "Alexander Kareline":http://en.wikipedia.org/wiki/Aleksandr_Kareline
+ who, unfortunately is known in the US only for his 1 defeat as opposed to the hundreds of victories during his 13 year undefeated stretch in international competition.  
+* "Dan Gable":http://www.dangable.com/dangablep2.html   is the John Wooden of wrestling winning 9 National Team titles in a row.  These men paid the price for excellence and achieved it. Dan Gable's thoughts on "priorities":http://www.dangable.com/dangablequotes.html: 
+
+bq. When you finally decide how successful you really want to be, you've got to set priorities. Then, each and every day, you've got to take care of the top ones. The lower ones may fall behind, but you can't let the top ones slip. You don't forget about the lower ones though because they can add up to hurt you. Just take care of the top ones first. In 25 years as a head coach and assistant, I think I might have missed one practice. Why? Because practice is my top priority. A day doesn't go by when I don't accomplish something in my family life or my profession because those two things are my top priorities.
+
+I know this was a long post, but it's something that I've been kicking around in my head concerning ways to look outside my profession to find examples of ways to succeed within my profession.  I highly recommend you contact Dr. Stankovich's work or a similar program to enable yourself to operate at peak performance at times it matters most.  I'll let him make his own point:
+
+bq. ??Use all your skills you learn in sports toward everything you do in life.  setting goals, handling adversity, staying focued, and working well with teammates are athletic transferable skills and will help you gain self-confidence in everything you do in life!??

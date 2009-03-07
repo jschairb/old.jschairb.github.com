@@ -26,3 +26,59 @@ You should know be able to access any of the pre-bundled command line tools for 
 h3. Creating An SDCard For Your Emulator
 
 There are times that you want to store some data or media that can act in the same way as an SDCard.  The SDK has a tool that you can use called @mksdcard@ which can be used to create an SDCard iso, which can then be mounted on the emulator.  Creating one is simple.  I recommend setting up a common folder for assets that you might want to use across your various projects.  In my case, that would be at @$PROJECTS/.java/shared@.  Here's a listing of the switches for this tool:
+<pre><code class="shell">mksdcard [-l label] <size>[K|M] <file></code></pre>
+
+In my case, I wanted a simple 1GB card that I could use for various purposes. I'm not going to give the volume a label, although I certainly could in the future.
+
+<pre><code class="shell">mksdcard 1024M $PROJECTS/.java/shared/sdcard1.iso</code></pre>
+
+Now I just need to make sure that this SDCard gets loaded onto the emulator when my Activity gets run.  In my case,
+
+<pre><code class="shell">-sdcard $PROJECTS/.java/shared/sdcard1.iso</code></pre>
+
+One really useful thing is the ability to preload data onto the SDCard file, which can be done by mounting the file using Finder and drag-and-drop.  If you're into command-line 1337-ness, push files using the @adb@ tool included with the SDK or something like "mtools":http://directory.fsf.org/project/mtools/.  I tried to do it that way but couldn't find get it to work after 5 minutes, so I moved on.  I loaded a simple @mp3@ file onto my SDCard image and was immediately able to play it.
+
+h3. Create Emulator Data Profiles
+
+By default, the emulator stores data in 2 places, a user-specific directory that will keep track of your settings and preferences in-between emulator sessions, and an optional SDCard that you pass in. ( See previous tip for SDCard emulation. )  The first of these is normally stored at @$HOME/.android@, this file will include various configurations, but also your contact list and various debugging files.  If you don't like this location, you can pass an option to the compiler that will use a different directory.  One thing that I've done is tried to create a couple of different user data sets, one a little more complete than the other to get a better feel for how my applications  will look with a blank slate, but also with a little more data.  I'm going to store these in @$PROJECTS/.java/shared/min.img@ and @$PROJECTS/.java/shared/max_data.img@, respectively.  To pass one or the other to the compiler, do this:
+
+<pre><code class="shell">-data $PROJECTS/.java/shared/max_data.img</code></pre>
+
+Using this in combination with the tip above should allow you to maintain maximum flexibility, but maintain fairly complex data sets for testing our software.  For a full list of emulator options, check out the "Android Emulator Reference":http://code.google.com/android/reference/emulator.html.
+
+h3. Update Other Application Onto An Emulator
+
+There are already some really great application available for Android, perhaps you want to build on top of some existing applications or you're trying to see how resource intensive things are going to be in anticipation of the release of the first Android-enabled phone.  One of the very first things that I'm going to want for my phone will be an SSH-client. "Connectbot":http://code.google.com/p/connectbot/ is a secure shell client for Android.  I'm going to download the @.apk@ file so I can use it.  I could also check out the source from subversion and build it, but I don't necessarily want to do Connectbot development at this point, just test it out.
+
+<pre><code class="shell">bash-3.2$ cd $PROJECTS/.java/shared && wget http://connectbot.googlecode.com/files/SSH.apk</code></pre>
+
+Now I need to start my emulator, I'm going to be loading the application while it's running.  Once running, it's as simple as using the @adb@ tool.
+
+<pre><code class="shell">bash-3.2$ adb install SSH.apk
+1650 KB/s (190790 bytes in 0.112s)
+	pkg: /data/local/tmp/SSH.apk
+Success</code></pre>
+
+Now, I can go to the Menu on the emulator and I should be able to use Connectbot.  It worked the first time for me.  Note that you do not have to do this each time, the application will persist until you remove it with @adb@. Also with your emulator running, you will need to start the @adb shell@ and navigate to @data/app@ and remove the application.
+
+<pre><code class="shell">bash-3.2$ adb shell</code></pre>
+
+The @adb shell@ is similar to the concept of SSH'ing into a server, except it's your phone.  You can take a look at the filesystem and browse around.  I highly recommend familiarizing yourself with the layout of an Android device.
+
+h3. Good Android Resources
+
+I've found that solid Android resources online are fairly hard to come by, so here's a list to get you started.  I've also found that Google code is a much better place to find projects than Github, for the moment.
+
+* "Apps for Android":http://code.google.com/p/apps-for-android/ - a great collection of sample Android applications
+* "Android Standard Reference":http://code.google.com/android/reference/index.html
+* "Common Android Howtos":http://code.google.com/android/kb/commontasks.html
+* "Hello, Android: Introducing Google's Mobile Development Platform":http://pragprog.com/titles/eband/hello-android by Ed Burnette, a Pragmatic Programmer book currently in beta
+* "Android Developers Mailing List":http://groups.google.com/group/android-developers
+* "The Android Wiki":http://en.androidwiki.com/wiki/Main_Page
+* "Emdroid.el":http://www.emacswiki.org/cgi-bin/emacs-en/EmDroid - a nice starting point to transition from Eclipse to Emacs, aka my next step.
+* "HelloAndroid.com":http://www.helloandroid.com/ - a fairly active community site full of tutorials, and lists of applications
+* "AndroidGuys.com":http://androidguys.com/ - _supposedly_ the site for the best Android news, including a podcast that I have yet to listen to
+* "TalkAndroid.com":http://www.talkandroid.com/ - another active community site
+* "Run Scala on Android":http://www.nabble.com/-scala--Scala-on-Android-td14336400.html
+
+Hopefully, this provides you enough incentive to get going on your own. Remember, you are only limited by your imagination. The next area that I'm going to investigate it how to write tests for Android applications, I'm hoping it's not too difficult.

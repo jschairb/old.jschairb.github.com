@@ -9,6 +9,10 @@ h1,h2,h3,h4 {
     color: #001155;
 }
 
+h1 { font-size: 2em; margin: 0.5em 0; }
+h2 { font-size: 1.5em; margin: 0.5em 0; }
+h3 { font-size: 1em; margin: 0.5em 0; }
+
 div.wrapper {
     width: 480px;
     margin: 0 auto;
@@ -55,8 +59,6 @@ a.image:hover { background: #FFFFFF; }
   margin-bottom: 1em;
 }
 
-h1 { font-size: 2em; margin: 0.5em 0; }
-
 #footer {
   margin-top: 1em; 
   padding: 1em 0;
@@ -64,7 +66,21 @@ h1 { font-size: 2em; margin: 0.5em 0; }
   border-top: .5em solid #0066aa;
 }
 
+div.post_meta { text-align: right; margin-top: 1em; font-size:14px; }
+
 ul.meta, p.meta { float: left; margin-right: 3em; }
 ul.meta li { line-height: 1.5em; }
 
 ul.posts, ul.projects { font-size: larger; line-height: 1.5em; }
+
+div#post ul li {
+    line-height: 1.5em;
+    padding: 0 1em; 
+}
+
+div#post dl { font-size: 14px; }
+div#post dl dd { margin-bottom: 1em; }
+
+p { margin-bottom: 1em; font-size: 14px; line-height: 1.25em; }
+
+p.meta { font-size: 16px; font-weight: bold; margin-bottom: auto; }
