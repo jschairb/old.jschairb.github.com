@@ -1,0 +1,10 @@
+--- 
+title: Why Microsoft is Dead
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. Technology companies are projectiles.  And because of that you can call them dead long before any problems show up on the balance sheet.  Relevance may lead revenues by five or even ten years.
+
+??Paul Graham on Why Microsoft is Dead??

@@ -1,0 +1,8 @@
+--- 
+title: Meeting Minutes
+layout: post
+---
+
+h1. {{ page.title }}
+
+<img src="/images/meeting-minutes.jpg" alt="Meeting Minutes" />

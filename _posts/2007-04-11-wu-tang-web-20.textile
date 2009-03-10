@@ -1,0 +1,8 @@
+--- 
+title: Wu-Tang Web2.0
+layout: post
+---
+
+h1. {{ page.title }}
+
+<img src="/images/wu-tang-web20.jpg" src="Wu-Tang Web 2.0" />

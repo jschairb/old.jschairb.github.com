@@ -1,0 +1,10 @@
+--- 
+title: Primal Iron
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. Iron is primal.  Heft a fine blade, a Smith &amp; Wesson, an AK-47, a kettlebell.  Your blood will speed up and your senses will sharpen as your warrior ancestors&#8217; have before you.  A man cannot help it.  Rudyard Kipling was right: &#8220;Iron-Cole Iron-is master of men all!
+
+??"Pavel Tsatsouline":http://www.dragondoor.com/pavel_bio.html??

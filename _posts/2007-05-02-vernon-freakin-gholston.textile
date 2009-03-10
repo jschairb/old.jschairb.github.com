@@ -1,0 +1,8 @@
+--- 
+title: Vernon Freakin' Gholston
+layout: post
+---
+
+h1. {{ page.title }}
+
+<img src="/images/vernon-freakin-gholston.jpg" alt="Vernon Freakin' Gholston" />

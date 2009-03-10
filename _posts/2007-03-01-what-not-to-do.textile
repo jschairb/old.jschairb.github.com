@@ -1,0 +1,10 @@
+--- 
+title: What Not To Do
+layout: post
+---
+
+h1. {{ page.title }}
+
+Should an employee that you want to keep ever decide to leave your corporation, don&#8217;t let your big pitch to keep them start with the following:
+
+*Are you sure you won't change your mind?*

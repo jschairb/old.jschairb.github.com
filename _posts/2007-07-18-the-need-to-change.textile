@@ -1,0 +1,10 @@
+--- 
+title: The Need to Change
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. To build systems that are easy to change, build them by changing them.
+
+??Glen Vandenburg @erubycon??

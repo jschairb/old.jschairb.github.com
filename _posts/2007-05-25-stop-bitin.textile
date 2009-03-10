@@ -1,0 +1,10 @@
+--- 
+title: Stop Bitin'
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. Let it be known, if you are following best practices and industry standards, you are not an industry leader, you are an industry follower.
+
+??Me, discussing the "apeing" of other people's work as the way to go for every business decision??

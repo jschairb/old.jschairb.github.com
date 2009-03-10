@@ -1,0 +1,10 @@
+--- 
+title: Software Craftsmenship
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. If you want to build a ship, don&#8217;t drum up people to collect wood and don&#8217;t assign them tasks and work, but rather teach them to long for the endless immensity of the sea.
+
+??"Antoine de Saint-Exupery":http://en.wikipedia.org/wiki/Antoine_de_Saint-Exupery??

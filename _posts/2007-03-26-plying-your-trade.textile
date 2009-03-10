@@ -1,0 +1,10 @@
+--- 
+title: Plying Your Trade
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. In truth, I’ve found that any day’s routine interruptions and distractions don’t much hurt a work in progress and may actually help it in some ways. It is, after all, the dab of grit that seeps into an oyster’s shell that makes the pearl, not pearl-making seminars with other oysters.
+
+??Stephen King, on the right environment for plying your trade??

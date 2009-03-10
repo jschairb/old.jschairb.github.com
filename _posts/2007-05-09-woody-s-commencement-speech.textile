@@ -1,0 +1,78 @@
+--- 
+title: Woody's Commencement Speech
+layout: post
+---
+
+h1. {{ page.title }}
+
+<p>Graduates, Mr. President, faculty members, friends, and families of the graduates who have done so much to make this possible.</p>
+
+<p>Today is the greatest day of my life. </p>
+
+<p>And, Mr. President, you have certainly helped to make it that way.  I appreciate so much being able to come here and talk to a graduating class at The Ohio State University, a great, great, University.</p>
+
+<p>I would like to start with something I have used in almost every speech, and this is, &#8220;paying forward.&#8221;  And that is the thing that you folks can do with your great education for the rest of your life.</p>
+
+<p>Try to take that attitude toward life, that you&#8217;re going to pay forward.  So seldom can we pay back because those who helped most&#8212;your parents and other people&#8212;will be gone, but you&#8217;ll find that you do want to pay.  Emerson had something to say about that: &#8220;You can pay back only seldom.&#8221;  But he said, &#8220;You can always pay forward, and you must pay line for line, deed for deed, and cent for cent.&#8221;  He said, &#8220;Beware of too much good accumulating in your palm or it will fast corrupt.&#8221;  That was Emerson&#8217;s attitude, and no one put it better than he did.</p>
+
+<p>I&#8217;d like to give you a little advice today.  I&#8217;ll try not to give you too much, just a little bit.  One thing you cannot afford to do&#8212;that&#8217;s to feel sorry for yourself.  That&#8217;s what leads to drugs, to alcohol, too those things that tear you apart.  In football we always said that the other team couldn&#8217;t beat us.  We had to be sure that we didn&#8217;t beat ourselves.  And that&#8217;s what people have to do, too&#8212;make sure they don&#8217;t beat themselves.</p>
+
+<p>So many times you have found here at the University people who were smarter than you. I found them all the way through college and in football: bigger, faster, harder.  They were smarter people than I.  But you know what they couldn&#8217;t do?  They couldn&#8217;t outwork me.  I ran into opposing coaches who had much better backgrounds than I did and knew a lot more about football than I did.  But they couldn&#8217;t work as long as I did.  They couldn&#8217;t stick in there as long as I could.  You can outwork anybody.  Try it and you&#8217;ll find out you can do it.</p>
+
+<p>And I had a great, great association with my coaches.  No one ever had better people than I did.  Or better football players, and we outworked our opponents.  The only way we got beaten was if we got a little fatheaded, if we didn&#8217;t train well, if we had dissension on the squad, if we didn&#8217;t recognize our purpose in life.  Those are the people you win with.</p>
+
+<p>Mr. Barthalow was my history and English teacher in junior high school.  He was the best teacher I ever had, and I am so honored to have him here today.  And to have my sister and my wife and friends, just as you&#8217;re happy to have your parents here today, who have meant so much to you.  A family life is unbelievable.</p>
+
+<p>With good people, and this goes all the way back to my grandmother and all the way down the line, she didn&#8217;t tell my dad, &#8220;Now you go to the study table.&#8221;  No, no.  She said, &#8220;I&#8217;ll meet you at the study table.&#8221;  And that&#8217;s where your good parents and you&#8217;re good teachers are.</p>
+
+<p>But when you deal with youngsters, when you get into jobs of any kind, don&#8217;t send people to the job.  Meet them there and help them do it.  And you&#8217;ll be amazed how it works.</p>
+
+<p>In football we learn some wonderful, wonderful things.  And one of them is this:  When you get knocked down, which is plenty often, get right up in a hurry, just as quick as you can.  Do you know what to do then?  You probably need more strength.  Do you know where you get it?  You get it in the huddle.  You get it by going back and getting a new play and running that same play together with your teammates.  That &#8220;together&#8221; is the thing that gives you the buildup to get ready to go again.</p>
+
+<p>In your lifetimes, you&#8217;ll find that how well you can work with people will depend on how quickly you can get back to them and get together.</p>
+
+<p>In football, you&#8217;ll find out that nothing that comes easy is worth a dime.  As a matter of fact, I never saw a football player make a tackle with a smile on his face.  Never.</p>
+
+<p>There&#8217;s one more thing I want to get into, and then I will let you get graduated.  I know you want to do it.  That&#8217;s what you came to college for.  That&#8217;s what your parents sent you to college for.  We&#8217;ve had a great, great heritage.  And so many times we&#8217;ve been so luck that you can&#8217;t believe it.  The odds against us were unbelievable.  In the battle of Salamis, 500 years before the birth of Christ, the Persians were attempting to conquer Greece and burned Athens down.  The old men and women and children were over on the beachhead at Salamis when the Persians came in to whip them.</p>
+
+<p>But the Greeks had been getting ready for ten years.  They had discovered silver on Mt. Laurium.  And they had taken that silver to help them make good, small ships that could move.  And they coaxed, they mousetrapped those Persians into the Bay of Salamis.  And then they attacked them with the metal prows on their ships.  They busted into them.  The Persians couldn&#8217;t get out of the way: their big troop-carrying ships were too awkward.  So in one day, the Greeks sank the Persian fleet and drove them out of the Greek waters and all the way back to Persia.</p>
+
+<p>Then the Greeks got busy.  And you know what they did?  They went over and rebuilt their city and decided they needed a new type of government.  They even had a name for it: &#8220;de-mo-cra-tos.&#8221;  Have you ever head of de-mo-cra-tos?  People rule.  That was the beginning of democracy.  Right there on the Bay of Salamis is where we got this great system we have today.</p>
+
+<p>To give you an appreciation of de-mo-cra-tos, a few years ago the mayor of Stuttgart, Germany, was here, and I interviewed him on television.  He was the son of the great World War II general, Rommel. I asked him, &#8220;Did your father agree with Hitler&#8217;s order to stop on May 24, 1940, when they were within 40 miles of the English Channel?&#8221;  And he said, &#8220;Wait a minute, Coach.  There&#8217;s something you&#8217;re not thinking about  My father did not have choices at all.  He lived in a dictatorship.&#8221;  He went on to say, &#8220;I live in a democracy now, and you live in the greatest in the world, a great democracy.  You and everyone else in your country have choices and decisions to make almost every day.  My father didn&#8217;t.&#8221;</p>
+
+<p>That night when I got home, I started wondering why he had become so upset.  And then I recalled the last decision his father had made on this earth: the decision to take poison so that this boy and his mother could live.  You can appreciate democracy when you look at it that way.</p>
+
+<p>My next story is much more recent.  Another underdog victory.  The fellows who did it were your age.  They were four-to-one underdogs against Hitler&#8217;s hordes at the Battle of Britain.  At that time even the American ambassador to England was reporting that he didn&#8217;t think the British could win.  A matter of fact, every night the radio announcer would say with a mournful dirge in his voice, &#8220;This is London.&#8221;</p>
+
+<p>The British didn&#8217;t look at it that way.  They all fought&#8212;men, women, and the boys who flew those planes.  And they did something greater than that.  Their mathematicians and their scientists did something that the German arrogance didn&#8217;t think could happen.  They had broken the German code&#8212;the Enigma code.  So that those British, with their coding machines, the best in the world, broke that German code.</p>
+
+<p>So the British knew where the German forces were coming from.  They knew what time they&#8217;d arrive.  They knew the point of attack, the formation, everything about them.  Then British fighter planes&#8212;manned mainly by British but some Americans, some Polish, some Canadians&#8212;would strike them just as they were ready to lower their bombs.</p>
+
+<p>Air Marshal Dowding didn&#8217;t send the planes out over the Channel.  He didn&#8217;t have that many.  He was outnumbered more than two-to-one.  He didn&#8217;t want to waste time or fuel or strength.  These young fellows&#8212;just your age, mind you&#8212;wanted to get up there and fight and then get back for a couple hours to sleep under a shade tree and then go up and fight again.  That&#8217;s the way they fought and won.</p>
+
+<p>And then after the British had won, General Dowding was criticized and fired.  Well, there have been a lot of great men fired&#8212;MacArthur, Richard Nixon, a lot of them.  But rather than knighting him for what he had done&#8212;and he had fought an unbelievably great war&#8212;they sent him out recruiting.  He could very easily have straightened them out by telling them of the coding secret, but he wouldn&#8217;t do that.  He knew it was going to be needed for the rest of the war.  And it wasn&#8217;t told for 35 years after that.  This man went to his death keeping it sealed.  And that was Air Marshal Dowding, all honor to his great name.  All honor.</p>
+
+<p>They won.  They won for us because if Hitler had whipped England and got the English Navy(this was a year-and-a-half before we ever got into the war), we&#8217;d have never joined the battle.  And Hitler would have been over here after us, you can believe that.</p>
+
+<p>So that&#8217;s how fortunate we were to have those great British people.  And you know what the greatest man in the war said about those fliers?  He said, &#8220;Never has so much been owed by so many to so few.&#8221;  He was referring to those British fliers who won the Battle of Britain.</p>
+
+<p>I&#8217;d like to tell one more story.  And it&#8217;s referred to still as a miracle, the miracle of Midway.  Underdogs!  You can&#8217;t believe it.  The Japanese had eight battleships in the area.  We had eight too, but they were in the mud back at Pearl Harbor.  The Japanese had 14 cruisers; we had 5 heavy cruisers.  They had 45 destroyers; we had 15.  They had a whole flotilla of submarines and eight admirals in the area.  We had two, and one of them was a substitute.  But that substitute made some of the greatest decisions ever made in combat.</p>
+
+<p>Intelligence&#8212;yes, it was there.  We had broken the Japanese code, and we knew they were coming in.  At lead, Admiral Nimitz at Pearl knew.  In Washington they didn&#8217;t know.  They&#8217;d have gotten mousetrapped like they did at Pearl Harbor six months before, but Admiral Nimitz knew.  He had a great man, a Commander Rocquefort, as his intelligence officer.  He had spent three years in Japan before the war studying their language, and now he broke their code.  He broke it so we knew they were coming to Midway.</p>
+
+<p>So Admiral Prugh and the substitute sent the planes off early because they knew the Japs were going for another strike on Midway.  They hit their carriers when they had gasoline hoses and land bombs and everything else all up on the decks.</p>
+
+<p>At 10:30 the Japanese were winning the war; at 10:36 they had lost it.  Three carriers&#8212;the Kaga, the Akagi, and the Soryu&#8212;were sunk in six minutes.  They didn&#8217;t go down until the next day, but they were mortally wounded.  Ensign George Gaye was in the water for 30 hours and was the only one of his torpedo squadron who survived.  He told me he had to hold his eye open to see the battle.  His left eye was burned shut.  But he said, &#8220;I held it open with my two hands, and I watched the battle.  We&#8217;d hit it.&#8221;  Do you know why we&#8217;d hit it?  Teamwork.  Because George Gaye and Torpedo Squadrons Seven, Eight, and Nine went in there and were practically totally decimated.</p>
+
+<p>But you know what the Japanese did?  They brought in the air umbrella, the Japanese Zeros, to hit them.  When they came down, our high-level bombers overflew them, and in six minutes it was over.</p>
+
+<p>It took us three more years in the Pacific.  To win the war, Harry Truman had to use the atom bomb to save a million of our servicemen and a million Japanese lives.  You may have heard other opinions about that decision, but the truth is that he sat down with great men and he concluded that he had to use it to save our lives.  I never voted for Harry Truman, but I fought for that.</p>
+
+<p>Wars always bring bigger problems then they settle.  We can&#8217;t have that.  It&#8217;s up to us to have such a good democracy that other people want it too.  That&#8217;s a job that will be in your future.</p>
+
+<p>Hard work, tough decisions, teamwork, family values, and paying ahead will help to change this world and make it a better place,  And I have no idea but that you have the attitude and the capacity and the ability here to go on and help make this a greater world.</p>
+
+<p>Godspeed in the meantime to all of you.  Thank you very much.</p>
+
+??Excerpts from Woody Hayes' Commencement Speech at The Ohio State University, courtesy of Paul Hornung's Book??

@@ -1,0 +1,8 @@
+--- 
+title: Please, One more year, Greg.
+layout: post
+---
+
+h1. {{ page.title }}
+
+<img src="/images/please-greg.jpg" alt="Please, Greg" />

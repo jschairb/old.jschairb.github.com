@@ -1,0 +1,8 @@
+--- 
+title: Eagle Nebula
+layout: post
+---
+
+h1. {{ page.title }}
+
+<img src="/images/eagle-nebula.jpg" alt="Eagle Nebula" />
