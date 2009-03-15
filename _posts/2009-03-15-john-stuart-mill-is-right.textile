@@ -1,0 +1,13 @@
+--- 
+title: John Stuart Mill
+layout: post
+---
+
+h1. {{ page.title }}
+
+bq. War is an ugly thing, but not the ugliest of things. The decayed and degraded state of moral and patriotic feeling which thinks that nothing is worth war is much worse. The person who has nothing for which he is willing to fight, nothing which is more important than his own personal safety, is a miserable creature and has no chance of being free unless made and kept so by the exertions of better men than himself."
+
+
+??John Stuart Mill?? 
+
+courtesy of "Small Wars Journal":http://smallwarsjournal.com/blog/2009/03/15-march-swj-roundup/
