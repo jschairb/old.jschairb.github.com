@@ -105,3 +105,7 @@ code.shell { font-family: "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono"
 p { margin-bottom: 1em; font-size: 14px; line-height: 1.25em; }
 
 p.meta { font-size: 16px; font-weight: bold; margin-bottom: auto; }
+
+div.date { width:30%; float:left; }
+div.date, div.title { display:inline; }
+span.spacer { padding: 0 1em; }
