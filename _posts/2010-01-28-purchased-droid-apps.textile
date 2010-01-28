@@ -1,0 +1,36 @@
+---
+title: Purchased Droid Apps
+layout: post
+---
+
+h1. {{ page.title }}
+
+I upgraded my Blackberry Storm to a Motorola Droid in late November and have been very pleased. I've never owned an iPhone, and until you can use one on Verizon's network, I won't be owning one. The network does matter to me, and while I can't browse the web while talking on the phone, I _can_ make and receive phone calls anytime I desire. (Caveat: Using the wi-fi connection, I can actually browse the web and talk on the phone, but I don't get the appeal of this feature.)  Here's a list of the apps I've purchased so far and a breif review of them.
+
+<dl>
+  <dd>"Android IRC":http://www.countercultured.net/android/</dd>
+  <dt>As the name suggests, this is an IRC client with support for the most common IRC abilities. One of the really slick advantages Android has over the iPhone is the ability to run applications in the background. This is a perfect example of that. I can join a channel and stay logged in while I have a data connection available. $4.99.</dt>
+
+  <dd>Nesoid</dd>
+  <dt>This is a NES emulator. The developer also has emulators available for Super NES, Gameboy Advance, Gameboy Color, Sega Genesis, and Sega Game Gear. You must provide your own ROMs. If your phone doesn't have a QWERTY keyboard, an onscreen on is available. This works well, I've been enjoying some of my old favorites, including Blades of Steel, Burger Time, Contra, Super Dodge Ball, and Tetris. A free "lite" version is also available. $1.99</dt>
+
+  <dd>"PicSay Pro":http://www.picsaypro.com/android</dd>
+  <dt>This is a fun application. You can modify pictures you've take with your camera by adding funny cartoon-ish hats, props, and text. You can export to various sizes for viewing on a variety of screens. You can also transform, rotate, and generally cleanup your photos. A free "lite" version is also available. €1.99</dt>
+
+  <dd>"RepliGoReader":http://www.cerience.com/products/reader/android</dd>
+  <dt>I owned this application on my Storm too. It's a pdf reader that looks sharp and works well. Until there's a Kindle application for Android, I'll keep using this to read ebooks that I've got in PDF format. It supports password-protected PDFs too, so you can use it on Apress ebooks. Currently on sale for $1.99, normally $7.99.</dt>
+
+  <dd>"Robo Defense":http://lupislabs.blogspot.com/</dd>
+  <dt>This is a variation of the Desktop Tower Defense you see on the interwebs all the time. It's probably my favorite app that I've purchased. There are many levels and some interesting upgrades in the types of towers. It runs well, and I think it's the most popular application available in the Android Market. A free "lite" version is also available. $2.99</dt>
+
+  <dd>"RoundTimer":http://plainandsimplesoftware.com/RoundTimer%20%28Android%29.html</dd>
+  <dt>I use this application to keep track of rounds of my Tabata-style workouts. It has a simple interface where you can set how long a round lasts, how long the break is between rounds, and how many rounds there are. Each item has a separate bell or buzzer. $0.99</dt>
+
+  <dd>"Scan2PDF Mobile":http://burrotech.com/scan2pdfmobile/</dd>
+  <dt>Scan2PDF turns your camera phone into a mobile scanner. Simply take a picture of a document and this application transforms it into a PDF to send or upload. It performs its job fairly well, but you need to ensure that the lighting is correct. The website seems to imply that it costs $14.95, but I'm sure I didn't pay that much, nor would I.</dt>
+
+  <dd>"Twidroid PRO":http://twidroid.com/</dd>
+  <dt>This was the first application that I purchased, and the first application that I knew of on the Android platform. It's a fully-featured Twitter client with support for advanced features like multiple accounts and lists. It's the most popular non-game application in Android Market. I like it, and it's worth the money, but recently has had some performance problems so I've been using Seesmic instead. A free "lite" version is also available. €3.39</dt>
+</dl>
+
+You can find all this applications in the Android Market. The application selection of Android is much better than on the Blackberry, but I'm sure it's not as robust as in the iPhone App Store. Applications are fairly hit or miss, but I think the ones I've listed above are all pretty good and worth the money paid for them.
