@@ -5,7 +5,7 @@ layout: post
 
 h1. {{ page.title }}
 
-I upgraded my Blackberry Storm to a Motorola Droid in late November and have been very pleased. I've never owned an iPhone, and until you can use one on Verizon's network, I won't be owning one. The network does matter to me, and while I can't browse the web while talking on the phone, I _can_ make and receive phone calls anytime I desire. (Caveat: Using the wi-fi connection, I can actually browse the web and talk on the phone, but I don't get the appeal of this feature.)  Here's a list of the apps I've purchased so far and a breif review of them.
+I upgraded my Blackberry Storm to a Motorola Droid in late November and have been very pleased. I've never owned an iPhone, and until you can use one on Verizon's network, I won't be owning one. The network does matter to me, and while I can't browse the web while talking on the phone, I _can_ make and receive phone calls anytime I desire. (Caveat: Using the wi-fi connection, I can actually browse the web and talk on the phone, but I don't get the appeal of this feature.)  Here's a list of the apps I've purchased so far and a brief review of them.
 
 <dl>
   <dt>"Android IRC":http://www.countercultured.net/android/</dt>
